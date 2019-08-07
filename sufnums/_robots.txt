@@ -1,0 +1,40 @@
+# robots.txt для сайта sufnums.ru
+Host: https://www.sufnums.ru/
+
+User-agent: Yandex
+Disallow: /css
+Disallow: /en/fonts
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
+Disallow: /libs
+Disallow: /php
+# Sitemap: https://www.sufnums.ru/sitemap/index.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: YandexDirect
+Allow: /
+# Sitemap: https://www.sufnums.ru/sitemap/index.xml
+
+User-agent: Googlebot
+Disallow: /css
+Disallow: /en/fonts
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
+Disallow: /libs
+Disallow: /php
+# Sitemap: https://www.sufnums.ru/sitemap/index.xml
+
+User-agent: *
+Disallow: /css
+Disallow: /en/fonts
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
+Disallow: /libs
+Disallow: /php
+# Sitemap: https://www.sufnums.ru/sitemap/index.xml
+

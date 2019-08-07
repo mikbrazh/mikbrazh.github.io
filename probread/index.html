@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<title>Наш Хлеб</title>
+
+	<meta name="description" content="Мы возраждаем хлебные традиции!">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+
+	<!-- LIBS -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="libs/mmenu/jquery.mmenu.css">
+	<link rel="stylesheet" href="libs/hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" href="libs/mmenu/extensions/jquery.mmenu.effects.css">
+	<link rel="stylesheet" href="libs/mmenu/extensions/jquery.mmenu.pagedim.css">
+	<link rel="stylesheet" href="libs/mmenu/extensions/jquery.mmenu.themes.css">
+	<link rel="stylesheet" href="libs/mmenu/extensions/jquery.mmenu.positioning.css">
+
+	<style>
+		/*PRELOADER OPENED*/
+		.preloader
+		{
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			opacity: .9;
+			z-index: 999;
+			transition: 1s all;
+			opacity: 1;
+			visibility: visible;
+		}
+		.loader
+		{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		/*.loading-txt
+		{
+			font-family: Roboto, Arial, sans-serif;
+			font-size: 11px;
+			color: #000;
+			position: absolute;
+			left: 50%;
+			top: 56%;
+			transform: translate(-50%, -50%);
+		}*/
+
+		.done
+		{
+			opacity: 0;
+			visibility: hidden;
+		}
+		/*PRELOADER CLOSED*/
+	</style>
+
+	</style>
+
+	<!-- MAIN STYLES -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mq.css">
+</head>
+
+<body>
+
+<!-- PRELOADER OPENED -->
+<div id="site-preloader" class="preloader">
+	<div class="loader"><img src="img/preloader.gif" alt="Preloader"></div>
+	<!-- <div class="loading-txt">Загрузка...</div> -->
+</div>
+<!-- PRELOADER CLOSED -->
+
+<div class="mmenu-wrap">
+
+<!-- HEADER OPENED -->
+<header class="main-screen" style="background-image: url(img/main-screen__BG.jpg)">
+
+	<!-- TOP-LINE OPENED -->
+	<div class="top-line">
+
+		<div class="container">
+
+			<div class="row row-logo-xs">
+				<div class="logo-xs">
+					<a href="index.html"><img src="img/main-screen__LOGO-xs.a.jpg" alt="Артемов Хлеб" style="width: 100%; height: 50px"></a>
+				</div>
+
+				<div class="logo-xs-m">
+					<a href="index.html"><img src="img/main-screen__LOGO-xs-440.jpg" alt="Артемов Хлеб" style="width: 100%; height: 50px"></a>
+				</div>
+
+				<div class="logo-xs-s">
+					<a href="index.html"><img src="img/main-screen__LOGO-xs-320.jpg" alt="Артемов Хлеб" style="width: 100%; height: 50px"></a>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-2 logo-wrap">
+					<a href="index.html" class="logo"><img src="img/main-screen__LOGO.a.jpg" alt="Артемов Хлеб"></a>
+				</div>
+
+				<div class="col-lg-8">
+
+					<nav class="main-menu visible-lg">
+						<ul>
+							<li class="active"><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>НАЧАЛО</a></li>
+							<li class="item-1"><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>ВЫБРАТЬ ХЛЕБ</a></li>
+							<li class="item-2"><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>О ПЕКАРНЕ</a></li>
+							<li class="item-4"><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>МАСТЕР-КЛАССЫ</a></li>
+							<li class="item-5"><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>ОПЛАТА И ДОСТАВКА</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<div class="phone col-xs-7 col-sm-offset-8 col-md-4 col-md-offset-9 col-lg-2 col-lg-offset-0">
+
+					<div class="phone-wrap">
+
+							<div class="phone-text">Заказать по телефону:</div>
+							<div class="phone-num">
+								<span class="phone-icon"></span><span>+7(812)</span>123-45-67
+							</div>
+
+							<button class="hamburger hamburger--spring hidden-lg" type="button">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</button>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- TOP-LINE CLOSED -->
+
+	<!-- MAIN-SCREEN CAROUSEL OPENED-->
+	<div class="main-screen-carousel-wrap">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div id="main-screen-carousel-generic" class="main-screen-carousel carousel slide" data-ride="carousel">
+
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#main-screen-carousel-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#main-screen-carousel-generic" data-slide-to="1"></li>
+						<li data-target="#main-screen-carousel-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+
+						<div class="item itm-1 active">
+							<div class="main-screen__item-info">
+								<h1 class="main-screen__item-header">Ржаной хлеб<br>с изюмом</h1>
+								<p class="main-screen__item-text">Этот душистый хлеб с хрустящей корочкой<br>выпечен из ржаной муки с добавлением<br>отборного изюма</p>
+								<div class="c-img-wrap-xs">
+									<img src="img/main-screen__SLIDE-1-xs.png" alt="Ржаной хлеб" class="c-img-xs">
+								</div>
+								<button type="submit" class="main-screen__order-btn">ЗАКАЗАТЬ</button>
+							</div>
+							<div class="c-img-wrap-md hidden-lg">
+								<img src="img/main-screen__SLIDE-1-md.png" alt="Ржаной хлеб">
+							</div>
+							<img src="img/main-screen__SLIDE-1.png" alt="Ржаной хлеб" style="width: 538px" class="visible-lg">
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="item itm-2">
+							<div class="main-screen__item-info">
+								<h1 class="main-screen__item-header">Румяный<br>пшеничный хлеб</h1>
+								<p class="main-screen__item-text">Замечательный традиционный пшеничный хлеб<br>приготовлен из пшеничной муки высшего сорта</p>
+								<div class="c-img-wrap-xs">
+									<img src="img/main-screen__SLIDE-2-xs.png" alt="Ржаной хлеб" class="c-img-xs">
+								</div>
+								<button type="submit" class="main-screen__order-btn">ЗАКАЗАТЬ</button>
+							</div>
+							<div class="c-img-wrap-md hidden-lg">
+								<img src="img/main-screen__SLIDE-2-md.png" alt="Ржаной хлеб">
+							</div>
+							<img src="img/main-screen__SLIDE-2.png" alt="Пшеничный каравай" style="width: 538px">
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="item itm-3">
+							<div class="main-screen__item-info">
+								<h1 class="main-screen__item-header">Ржаной<br>бездрожжевой хлеб</h1>
+								<p class="main-screen__item-text">Этот хлеб приготовлен по уникальному рецепту<br>без использования дрожжей, что делает его<br>особенно полезным</p>
+								<div class="c-img-wrap-xs">
+									<img src="img/main-screen__SLIDE-3-xs.png" alt="Ржаной хлеб" class="c-img-xs">
+								</div>
+								<button type="submit" class="main-screen__order-btn">ЗАКАЗАТЬ</button>
+							</div>
+							<div class="c-img-wrap-md hidden-lg">
+								<img src="img/main-screen__SLIDE-3-md.png" alt="Ржаной хлеб">
+							</div>
+							<img src="img/main-screen__SLIDE-3.png" alt="Ржаной бездрожжевой хлеб" style="width: 538px">
+							<div class="clearfix"></div>
+						</div>
+
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#main-screen-carousel-generic" role="button" data-slide="prev">
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#main-screen-carousel-generic" role="button" data-slide="next">
+						<span class="sr-only">Next</span>
+					</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- MAIN-SCREEN CAROUSEL CLOSED -->
+
+	<div class="main-screen__arrow-down-wrap show-scroll-btn-point">
+		<div class="main-screen__arrow-down"></div>
+	</div>
+
+	<div class="main-screen__waves"></div>
+
+	<div class="main-screen__waves-bottom">
+		<h1 class="section-header">ВЫБРАТЬ&nbsp;&nbsp;ХЛЕБ</h1>
+	</div>
+
+</header>
+<!-- HEADER CLOSED -->
+
+<!-- SECTION-1 OPEND -->
+<section class="section-1">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="section-1-carousel-left-side visible-lg"></div>
+
+			<div class="section-1-carousel-middle-side">
+
+				<div class="section-1-top-divider"></div>
+
+				<div class="extra-car-btn visible-xs">
+					<div href="#" class="section-1-carousel__prev-btn">
+						<div class="section-1__arrow-left "></div>
+					</div>
+					<div href="#" class="section-1-carousel__next-btn">
+						<div class="section-1__arrow-right"></div>
+					</div>
+				</div>
+
+				<div class="section-1-carousel nonCircular">
+
+
+					<div href="#" class="section-1-carousel__prev-btn hidden-xs">
+						<div class="section-1__arrow-left "></div>
+					</div>
+
+						<div class="section-1-carousel-items">
+								<ul>
+										<li>
+											<div class="section-1-carousel__circle animated">
+												<img src="img/section-1__BREAD-black.png" alt="Ржаной хлеб">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+
+											<div class="sec-1-car-cont-wrap">
+												<h1>РЖАНОЙ ХЛЕБ</h1>
+												<p>Питательный хлеб, испеченный<br>по старинному русскому рецепту,<br>придает крепость и силы.</p>
+												<p><span>Состав</span>: мука ржаная, соль, вода.</p>
+												<div class="section-1-price-wrap">
+													<div class="section-1-carousel__price">109</div>
+													<div class="rub-wrap">
+														<div class="rub"></div>
+													</div>
+													<div class="clearfix"></div>
+													<button class="section-1-order-btn">
+														<div class="check-icon-wrap">
+															<div class="check-icon"></div>
+														</div>
+													ВЫБРАТЬ
+													</button>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="section-1-carousel__circle animated">
+												<img src="img/section-1__BREAD-karavai.png" alt="Каравай">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+
+											<div class="sec-1-car-cont-wrap">
+												<h1>ПШЕНИЧНЫЙ ХЛЕБ</h1>
+												<p>Душистый и румяный пшеничный<br>хлеб – это верность качеству<br>и традициям. В нем ощущается<br>заботливость и гостеприимность,<br> присущие народному характеру.</p>
+												<p><span>Состав</span>: мука пшеничная, соль, вода.</p>
+													<div class="section-1-price-wrap">
+														<div class="section-1-carousel__price">109</div>
+															<div class="rub-wrap">
+																<div class="rub"></div>
+															</div>
+														<div class="clearfix"></div>
+														<button class="section-1-order-btn">
+															<div class="check-icon-wrap">
+																<div class="check-icon"></div>
+															</div>
+														ВЫБРАТЬ
+														</button>
+													</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="section-1-carousel__circle animated">
+												<img src="img/section-1__BREAD-baget.png" alt="Французский багет">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+
+											<div class="sec-1-car-cont-wrap">
+												<h1>ФРАНЦУЗСКИЙ БАГЕТ</h1>
+												<p>Легкий французский багет, приготовлен по классической технологии только<br>из натуральных ингредиентов.</p>
+												<p><span>Состав</span>: мука пшеничная, соль, вода.</p>
+												<div class="section-1-price-wrap">
+													<div class="section-1-carousel__price">69</div>
+														<div class="rub-wrap">
+															<div class="rub"></div>
+														</div>
+														<div class="clearfix"></div>
+														<button class="section-1-order-btn">
+														<div class="check-icon-wrap">
+															<div class="check-icon"></div>
+														</div>
+													ВЫБРАТЬ
+													</button>
+												</div>
+											</div>
+
+										</li>
+										<li>
+											<div class="section-1-carousel__circle">
+												<img src="img/section-1__BREAD-black.png" alt="Ржаной хлеб">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+											<h1>РЖАНОЙ ХЛЕБ</h1>
+											<p>Питательный хлеб, испеченный<br>по старинному русскому рецепту,<br>придает крепость и силы.</p>
+											<p><span>Состав</span>: мука ржаная, соль, вода.</p>
+											<div class="section-1-price-wrap">
+												<div class="section-1-carousel__price">109</div>
+												<div class="rub-wrap">
+													<div class="rub"></div>
+												</div>
+												<div class="clearfix"></div>
+												<button class="section-1-order-btn">
+													<div class="check-icon-wrap">
+														<div class="check-icon"></div>
+													</div>
+												ВЫБРАТЬ
+												</button>
+											</div>
+										</li>
+										<li>
+											<div class="section-1-carousel__circle">
+												<img src="img/section-1__BREAD-karavai.png" alt="Каравай">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+											<h1>ПШЕНИЧНЫЙ ХЛЕБ</h1>
+											<p>Душистый и румяный пшеничный<br>хлеб – это верность качеству<br>и традициям. В нем ощущается<br>заботливость и гостеприимность,<br> присущие народному характеру.</p>
+											<p><span>Состав</span>: мука пшеничная, соль, вода.</p>
+												<div class="section-1-price-wrap">
+													<div class="section-1-carousel__price">109</div>
+														<div class="rub-wrap">
+															<div class="rub"></div>
+														</div>
+													<div class="clearfix"></div>
+													<button class="section-1-order-btn">
+														<div class="check-icon-wrap">
+															<div class="check-icon"></div>
+														</div>
+													ВЫБРАТЬ
+													</button>
+												</div>
+										</li>
+										<li>
+											<div class="section-1-carousel__circle">
+												<img src="img/section-1__BREAD-baget.png" alt="Французский багет">
+												<div class="circle-part-left"><span>100 гр.</span></div>
+												<div class="circle-part-right"><span>300 гр.</span></div>
+											</div>
+											<h1>ФРАНЦУЗСКИЙ БАГЕТ</h1>
+											<p>Легкий французский багет, приготовлен по классической технологии только<br>из натуральных ингредиентов.</p>
+											<p><span>Состав</span>: мука пшеничная, соль, вода.</p>
+											<div class="section-1-price-wrap">
+												<div class="section-1-carousel__price">69</div>
+													<div class="rub-wrap">
+														<div class="rub"></div>
+													</div>
+													<div class="clearfix"></div>
+													<button class="section-1-order-btn">
+													<div class="check-icon-wrap">
+														<div class="check-icon"></div>
+													</div>
+												ВЫБРАТЬ
+												</button>
+											</div>
+										</li>
+								</ul>
+						</div>
+
+					<div href="#" class="section-1-carousel__next-btn hidden-xs">
+						<div class="section-1__arrow-right"></div>
+					</div>
+
+					<div class="clearfix"></div>
+
+				</div>
+
+			</div>
+
+			<div class="section-1-carousel-right-side visible-lg"></div>
+
+		</div>
+
+	</div>
+
+	<div class="section-2-bg-part-1" style="background-image: url(img/section-2__BG-1.png);"></div>
+
+</section>
+<!-- SECTION-1 CLOSED -->
+
+<!-- SECTION-2 OPENED -->
+<section class="section-2">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="section-2-text col-lg-6 col-lg-offset-5 col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-4 col-xs-12">
+				<h1 class="section-header">О&nbsp;&nbsp;ПЕКАРНЕ</h1>
+				<div class="section-2-text-divider hidden-xs"></div>
+				<p>«<span>Н</span>аш хлеб» – это пекарня, где изготавливается хлеб по традиционным рецептам,
+				собранным по всему миру.</p>
+				<p>Хлеб всегда был обязательной составляющей народной кухни, «Хлеб – всему голова» –
+				гласит народная мудрость. Недаром в нашей стране и других странах мира существует
+				огромное количество рецептов приготовления хлеба.</p>
+				<p>Мы долго и кропотливо собирали различные оригинальные рецепты хлеба по всему миру,
+				в результате у нас получились совершенно удивительные по вкусу и полезным свойствам
+				маленькие хлебные шедевры, каждый из которых по-своему уникален.</p>
+				<p>Сегодня мы с радостью приглашаем вас познакомиться с продукцией нашей пекарни. Наш
+				хлеб испечен для вас настоящими мастерами, которые превосходно знают и любят свое
+				дело. Кроме того, вся наша выпечка проходит строгий контроль качества.</p>
+				<p>Приятного аппетита и доброго здоровья!</p>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+		<div class="row">
+			<div class="section-2-imgs-wrap hidden-xs">
+				<div class="section-2__baker animated"><img src="img/section-2__BAKER.png" alt="Пекарь"></div>
+				<div class="section-2__breadbasket animated"><img src="img/section-2__BREADBASKET.png" alt="Корзина с хлебом"></div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+<!-- SECTION-2 CLOSED -->
+
+<!-- SECTION-3 OPENED -->
+<section class="section-3">
+
+<div class="section-3-top-line">
+	<h1 class="section-header">НАША&nbsp;&nbsp;РАБОТА</h1>
+</div>
+
+<div class="photos-wrap">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="first-row-wrap col-lg-12 ">
+				<div class="photo-overlay ph-ov-1 animated"><h2>Наш магазин</h2><img src="img/section-3__PHOTO-1.jpg" alt="Магазин"></div><div class="photo-overlay ph-ov-2 animated"><h2>За работой</h2><img src="img/section-3__PHOTO-2.jpg" alt="Наша работа"></div><div class="photo-overlay ph-ov-3 animated"><h2>Мастера</h2><img src="img/section-3__PHOTO-3.jpg" alt="Мастера"></div><div class="photo-overlay ph-ov-4 animated"><h2>Команда</h2><img src="img/section-3__PHOTO-4.jpg" alt="Команда"></div><div class="photo-overlay ph-ov-5 animated"><h2>Результат</h2><img src="img/section-3__PHOTO-5.jpg" alt="Труды"></div><div class="photo-overlay ph-ov-6 animated"><h2>Атмосфера</h2><img src="img/section-3__PHOTO-6.jpg" alt="Атмосфера"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="section-3__waves"></div>
+
+</section>
+<!-- SECTION-3 CLOSED -->
+
+<!-- SECTION-4 OPENED -->
+<section class="section-4">
+
+	<h1 class="section-header">НАШИ&nbsp;&nbsp;МАСТЕР-КЛАССЫ</h1>
+
+	<div class="section-4-text">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="text-block">
+					<p>Мы рады сообщить вам, что теперь мы проводим мастер классы по мастерству выпечки домашнего хлеба.</p>
+					<p>Как всегда только лучшие рецепты вкусных и полезных маленьких шедевров.</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+		<div class="owl-carousel master-cls-carousel">
+			<div class="master-cls-item animated">
+				<img src="img/section-4__SLIDE-2.png" alt="Image-1">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Литейном</button>
+			</div>
+			<div class="master-cls-item animated">
+				<img src="img/section-4__SLIDE-1.png" alt="Image-2">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Невском</button>
+			</div>
+			<div class="master-cls-item animated">
+				<img src="img/section-4__SLIDE-3.png" alt="Image-3">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Лиговском</button>
+			</div>
+			<div class="master-cls-item">
+				<img src="img/section-4__SLIDE-2.png" alt="Image-1">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Литейном</button>
+			</div>
+			<div class="master-cls-item">
+				<img src="img/section-4__SLIDE-1.png" alt="Image-2">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Невском</button>
+			</div>
+			<div class="master-cls-item">
+				<img src="img/section-4__SLIDE-3.png" alt="Image-3">
+				<button class="master-cls-carousel-btn">Мастер-класс<br>на Лиговском</button>
+			</div>
+		</div>
+
+</section>
+<!-- SECTION-4 CLOSED -->
+
+<!-- SECTION-5 OPENED -->
+<section class="section-5">
+
+	<div class="s5-triangle-text-wrap">
+
+		<div class="s5-triangle">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="s5-triangle-text col-lg-6 col-lg-offset-3">
+						<h1 class="section-header">ОПЛАТА&nbsp;&nbsp;И&nbsp;&nbsp;ДОСТАВКА</h1>
+						<p>Мы гарантируем доставку в любой район города в пределах КАД<br>в течение одного часа сразу после подтверждения заказа.<br>Наши курьеры бережно и заботливо доставят свежий хлеб,<br>испеченный специально для вас.</p>
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="s5-content-2-wrap">
+						<h1 class="section-header">АДРЕС&nbsp;&nbsp;ДОСТАВКИ</h1>
+						<p class="s5-content-2-text">Пожалуйста, заполните данную форму с контактными данными,<br>чтобы мы смогли быстро доставить заказ и связаться с вами в случаи необходимости.</p>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="callback-wrap col-lg-12">
+						<div class="left-callback animated">
+							<form action="#" class="left-callback-form">
+								<div class="left-input-block">
+									<label><span>Дата доставки:</span><input type="text" required></label>
+									<label><span>Время доставки:</span><input type="text" required></label>
+								</div>
+								<div class="right-input-block">
+									<label><span>Ваше имя:</span><input type="text" required></label>
+									<label><span>Ваш телефон:</span><input type="text" required></label>
+								</div>
+								<label><span>Адрес доставки:</span><input class="adress-input" type="text" required></label>
+								<label><span>Коментарии к заказу:</span><input class="comment-input" type="text"></label>
+							</form>
+						</div>
+
+						<div class="right-callback animated">
+							<div class="right-callback-inner">
+								<div class="right-callback-inner-top">
+									<h1 class="section-header">ВАШ&nbsp;&nbsp;ЗАКАЗ</h1>
+									<div class="scroll-aria-wrap" id="scroll-aria-wrap">
+										<ul class="basket-list">
+											<!-- <li class="no-order">В Вашей корзине пусто :(</li> -->
+											<li class="basket-item"><div class="close-btn"></div>Хлеб "Пшеничный"............. 1 шт. / 149<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li>
+											<li class="basket-item"><div class="close-btn"></div>Хлеб "Ржаной".................... 2 шт. / 249<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li></li>
+											<li class="basket-item"><div class="close-btn"></div>Французский багет............ 1 шт. / 69<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li></li>
+											<li class="basket-item"><div class="close-btn"></div>Хлеб "Пшеничный"............. 1 шт. / 149<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li>
+											<li class="basket-item"><div class="close-btn"></div>Хлеб "Ржаной".................... 2 шт. / 249<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li></li>
+											<li class="basket-item"><div class="close-btn"></div>Французский багет............ 1 шт. / 69<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></li></li>
+										</ul>
+									</div>
+								</div>
+								<div class="right-callback-inner-bottom">
+										<p><span class="sum">ИТОГО:</span> 436<span class="rub-wrap"><i class="fa fa-rub" aria-hidden="true"></i></span></p>
+									<div class="basket-btn-wrap">
+										<button class="section-1-order-btn refuse">
+											<div class="check-icon-wrap">
+												<div class="check-icon"></div>
+											</div>
+											ОТКАЗАТЬСЯ
+										</button>
+										<button class="section-1-order-btn confirm">
+											<div class="check-icon-wrap">
+												<div class="check-icon"></div>
+											</div>
+											ОФОРМИТЬ
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</section>
+<!-- SECTION-5 CLOSED -->
+
+<!-- FOOTER CLOSED -->
+<footer class="main-footer">
+	<div class="waves"></div>
+	<div class="content animated">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 contacts">
+				<div class="top-row">КОНТАКТЫ:</div>
+					<a href="index.html" class="temp-icon"><img class="logo" src="img/footer__LOGO.a.jpg" alt="Логотип компании"></a>
+					<div class="hidden-icon">
+						<a href="index.html"><img class="logo" src="img/footer__LOGO.a.jpg" alt="Логотип компании"></a>
+					</div>
+					<div class="clearfix visible-xs"></div>
+					<div class="mailto">
+						<a href="mailto:ourbread@mail.ru">ourbread@mail.ru</a>
+					</div>
+					<p>+7 (812) 123-45-67</p>
+					<p>Заневский пр., 119</p>
+				</div>
+				<div class="col-lg-4 menu-footer">
+				<div class="top-row text-idnt">МЕНЮ:</div>
+					<div class="menu">
+						<nav class="menu-left">
+							<ul class="list text-idnt">
+								<li class="item">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right menu-left-arr" aria-hidden="true"></i>
+										</div>НАЧАЛО
+									</a>
+								</li>
+								<li class="item item-1">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right menu-left-arr" aria-hidden="true"></i>
+										</div>ВЫБРАТЬ ХЛЕБ
+									</a>
+								</li>
+								<li class="item item-2">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right menu-left-arr" aria-hidden="true"></i>
+										</div>О ПЕКАРНЕ
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="menu-right">
+							<ul class="list">
+								<li class="item item-3">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										</div>НАША РАБОТА
+									</a>
+								</li>
+								<li class="item item-4">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										</div>МАСТЕР-КЛАССЫ
+									</a>
+								</li>
+								<li class="item item-5">
+									<a href="#">
+										<div class="arrow-wrap">
+											<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										</div>ОПЛАТА И ДОСТАВКА
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-lg-4 menu-footer-sprite-wrap">
+					<div class="top-row text-idnt">СОЦ. СЕТИ:</div>
+
+					<!-- <div class="menu-footer-sprite facebook-icon"></div>
+					<div class="menu-footer-sprite twitter-icon"></div>
+					<div class="menu-footer-sprite google-icon"></div>
+					<div class="menu-footer-sprite in-icon"></div>
+					<div class="menu-footer-sprite v-icon"></div> -->
+
+					<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus"></div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- FOOTER OPENED -->
+
+</div>
+
+<!-- MMENU -->
+<nav id="menu-sm">
+	<ul>
+		<li class="item-1">Выбрать хлеб</li>
+		<li class="item-2">О пекарне</li>
+		<li class="item-3">Наша работа</li>
+		<li class="item-4">Мастер-классы</li>
+		<li class="item-5">Оплата и доставка</li>
+	</ul>
+</nav>
+
+<div class="arr-scroll-top-wrap">
+	<div class="arr-scroll-top"></div>
+</div>
+
+<button class="hamburger add-hamb hamburger--spring hidden-lg" type="button">
+	<span class="hamburger-box">
+		<span class="hamburger-inner"></span>
+	</span>
+</button>
+
+<!-- Загрузка прелоадера -->
+<script>
+	document.body.onload=function()
+		{
+			setTimeout(function()
+			{
+				var preloader = document.getElementById('site-preloader');
+				if ( !preloader.classList.contains('done') )
+				{
+					preloader.classList.add('done');
+				}
+			}, 1000)
+		};
+</script>
+
+<!-- LIBS -->
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+<script src="libs/jcarousellite/jquery.jcarousellite.min.js"></script>
+<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="libs/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="libs/mmenu/jquery.mmenu.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/yandex-share-icons/share.js"></script>
+
+<!-- MAIN JS -->
+<script src="js/common.js"></script>
+
+</body>
+
+</html>

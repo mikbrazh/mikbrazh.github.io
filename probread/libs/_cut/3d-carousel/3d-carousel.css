@@ -1,0 +1,45 @@
+.master-cls-carousel-wrap {
+	text-align: center;
+}
+
+.master-cls-carousel {
+	left: 50%;
+	/*position: absolute;*/
+	width: 1000px;
+	/*margin-left: -500px;*/
+	overflow: hidden;
+	height: 500px;
+	top: 50px;
+}
+
+.master-cls-carousel .master-cls-item {
+	width: 260px;
+	height: 260px;
+	background-size: 100%;
+}
+
+.master-cls-carousel-btn
+{
+	width: 167px;
+	height: 46px;
+	background-color: #368abe;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 50px;
+	border: none;
+	box-sizing: border-box;
+	border: 1px solid #368abe;
+	letter-spacing: .1em;
+	transition: .1s ease;
+	margin-top: 20px;
+	padding: 0;
+	margin-top: 20px;
+	font-family: Raleway, Arial, sans-serif;
+	letter-spacing: .05em;
+}
+
+.master-cls-carousel-btn:hover
+{
+	background-color: #1e72a6;
+	border: 1px solid #0b5b8c;
+}

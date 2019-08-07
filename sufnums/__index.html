@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"><!--<![endif]-->
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Sufnums</title>
+
+	<meta name="description" content="Суффиксальный генератор случайных чисел – Получи уникальное имя для твоего файла">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.jpg" type="image/x-icon">
+
+	<!--Eric Meyer's reset v2.0-->
+	<link rel="stylesheet" href="libs/reset.min.css">
+	<!--Bootstrap v3.3.7-->
+	<link rel="stylesheet" href="libs/ru_bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+			(function (d, w, c) {
+					(w[c] = w[c] || []).push(function() {
+							try {
+									w.yaCounter48980084 = new Ya.Metrika({
+											id:48980084,
+											clickmap:true,
+											trackLinks:true,
+											accurateTrackBounce:true
+									});
+							} catch(e) { }
+					});
+
+					var n = d.getElementsByTagName("script")[0],
+							s = d.createElement("script"),
+							f = function () { n.parentNode.insertBefore(s, n); };
+					s.type = "text/javascript";
+					s.async = true;
+					s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+					if (w.opera == "[object Opera]") {
+							d.addEventListener("DOMContentLoaded", f, false);
+					} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/48980084" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+</head>
+
+<body>
+
+<!-- PRELOADER OPENED -->
+<div id="site-preloader" class="preloader">
+	<div class="loader"></div>
+	<div class="loading-txt">Загрузка...</div>
+</div>
+<!-- PRELOADER CLOSED -->
+
+<!-- DONATE OPENED -->
+<div class="donate-bg">
+	<div class="donate">
+		<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C&targets-hint=&default-sum=50&button-text=14&payment-type-choice=on&mobile-payment-type-choice=on&hint=&successURL=&quickpay=shop&account=410013949015827" width="310" height="224" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+	</div>
+</div>
+<!-- DONATE CLOSED -->
+
+<!-- HEADER OPENED -->
+<header class="header" style="background-image: url(img/background/header_background.hq.web.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+	<div class="container">
+		<div class="row">
+			<div class="top-line-logo-xs visible-xs col-xs-12">
+				<a href="index.html" class="top-line-left-block__logo"><img src="img/logo.svg" alt="Sufnums generator"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- TOP-LINE OPENED -->
+	<div class="top-line">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="top-line-left-block col-lg-3 col-md-3 col-sm-4 col-xs-2">
+					<a href="#" id="toggle-mnu" class="toggle-mnu hidden-lg"><span></span></a>
+					<a href="index.html" class="top-line-left-block__logo hidden-xs"><img src="img/logo.svg" alt="Sufnums generator"></a>
+				</div>
+
+				<div class="top-line-middle-block col-lg-6 col-md-7 visible-lg visible-md">
+					<nav>
+						<ul class="menu">
+							<li class="menu__item"><a class="menu__href menu__href-about-project" href="#">О проекте</a></li>
+							<li class="menu__item"><a class="menu__href menu__href-instraction" href="#">Инструкция</a></li>
+							<li class="menu__item"><a class="menu__href menu__href-account" href="#">Для чего нужен аккаунт?</a></li>
+							<li class="menu__item"><a class="menu__href menu__href-about-author" data-toggle="modal" data-target="#myModal" href="#">Об авторе</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+				<!-- MEDIUM AND SMALL SCREEN MENU OPENED -->
+				<div class="menu-md-wrap hidden-lg col-md-2 col-sm-8 col-xs-10">
+					<ul class="menu-md nav nav-pills" role="tablist">
+
+						<li role="presentation" class="dropdown dropdown-menu-sm hidden-md"> <a href="#" class="dropdown-toggle menu-md-btn" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-home"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu menu-md-href" id="menu1" aria-labelledby="drop4">
+
+									<nav class="nav-sm">
+										<ul class="menu-sm">
+											<li><a class="menu__href-about-project" href="#">О проекте</a></li>
+											<li><a class="menu__href-instraction" href="#">Инструкция</a></li>
+											<li><a class="menu__href-account" href="#">Для чего нужен аккаунт?</a></li>
+											<li><a class="menu__href-about-author" data-toggle="modal" data-target="#myModal" href="#">Об авторе</a></li>
+										</ul>
+									</nav>
+
+								</ul>
+						</li>
+
+							<li role="presentation" class="dropdown dropdown-md"> <a href="#" class="dropdown-toggle menu-md-btn" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-globe"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu menu-md-href" id="menu1" aria-labelledby="drop4">
+
+									<!-- ОТКЛЮЧЕНИЕ КНОПОК АВТОРИЗАЦИИ В ВЫПОДАЮЩЕМ МЕНЮ -->
+									<!-- <li><a href="#" data-toggle="modal" data-target=".under-construction-modal">Войти</a></li> -->
+									<!-- <li><a href="#" data-toggle="modal" data-target=".under-construction-modal">Создать аккаунт</a></li> -->
+									<!-- <li role="separator" class="divider"></li> -->
+									<li><a href="en/index.html">English version</a></li>
+								</ul>
+							</li>
+
+					</ul>
+				</div>
+				<!-- MEDIUM AND SMALL SCREEN MENU CLOSED -->
+
+				<div class="top-line-right-block col-lg-1 col-lg-offset-1 visible-lg">
+
+					<span class="top-line-right-block__glyphicon-globe glyphicon glyphicon-globe"></span>
+
+					<div class="top-line-right-block__lang-menu btn-group">
+
+						<button type="button" class="top-line-right-block__lang-menu-btn btn btn-default dropdown-toggle btn-xs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rus<span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu">
+							<li><a href="index.html" id="href-ru" class="dropdown-text">Russian</a></li>
+							<li><a href="en/index.html" id="href-en" class="dropdown-text">English</a></li>
+						</ul>
+
+					</div>
+
+				<!-- ОТКЛЮЧЕНИЕ КНОПОК АВТОРИЗАЦИИ -->
+				<!-- 	<button type="button" class="top-line-right-block__account-btn btn btn-default" data-toggle="modal" data-target=".under-construction-modal">Создать аккаунт</button>
+					<button type="button" class="top-line-right-block__enter-btn btn btn-success" data-toggle="modal" data-target=".under-construction-modal">Войти</button> -->
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- TOP-LINE CLOSED -->
+
+	<!-- HEADER-CONTENT OPENED -->
+	<div class="header-content">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="left-menu-wrap col-lg-6">
+
+					<!-- LEFT-MENU OPENED -->
+					<div id="left-menu" class="left-menu">
+
+						<div class="left-menu-content-wrap">
+
+							<div>
+								<p class="left-menu__choose-range">Выберите диапазон:</p>
+
+								<form action="#" method="#" class="top-form">
+									<select id="select-min" class="left-menu-select form-control" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" select-min_msg-err-txt="Минимальное значение должно быть меньше максимального!" select-min_msg-alrt-txt="Выберите минимальное значение!">
+										<option id="option-min-text" class="option-min-text" selected>Выберите минимальное значение</option>
+										<option value="1">1</option>
+										<option value="10">10</option>
+										<option value="100">100</option>
+										<option value="1000">1000</option>
+										<option value="1000000">1000000</option>
+									</select>
+								</form>
+
+								<form action="#" method="#">
+									<select id="select-max" class="left-menu-select form-control" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" select-max_msg-alrt-txt="Выберите максимальное значение!">
+										<option id="option-max-text" class="option-max-text" selected>Выберите максимальное значение</option>
+										<option value="1">1</option>
+										<option value="10">10</option>
+										<option value="100">100</option>
+										<option value="1000">1000</option>
+										<option value="1000000">1000000</option>
+									</select>
+								</form>
+							</div>
+
+							<div class="left-menu-block">
+								<div class="checkbox">
+									<label>
+										<input id="user-value-checkbox" class="user-value-checkbox" type="checkbox" value="#" autocomplete="off">Включить пользовательские значения
+									</label>
+								</div>
+								
+								<input id="min-val" class="form-control top-form" placeholder="Введите минимальное значение" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" min-val_msg-alrt-txt="Введите минимальное значение!" min-val_msg-err-txt="Минимальное значение должно быть меньше максимального!">
+								<input id="max-val" class="form-control" placeholder="Введите максимальное значение" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" max-val_msg-alrt-txt="Введите максимальное значение!">
+							</div>
+
+							<div class="left-menu-block radio-block">
+								<div class="radio">
+									<label>
+										<input type="radio" name="blankRadio-1" id="suf-radio-1" value="option1" aria-label="..."><span data-toggle="tooltip" data-placement="right" class="white-tooltip" title="Изображение с данным именем принадлежит к классу “a” – “article”, т.е. «статья»" autocomplete="off">Добавить суффикс ".a"</span>
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="blankRadio-1" id="suf-radio-2" value="option1" aria-label="..."><span data-toggle="tooltip" data-placement="right" class="white-tooltip" title="Изображение с данным именем принадлежит к классу “b” – “banner”, т.е. «баннер»" autocomplete="off">Добавить суффикс ".b"</span>
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="blankRadio-1" id="suf-radio-3" value="option1" aria-label="..."><span data-toggle="tooltip" data-placement="right" class="white-tooltip" title="Изображение с данным именем принадлежит к классу “s” – “sidebar”, т.е. «боковая панель»" autocomplete="off">Добавить суффикс ".s"</span>
+									</label>
+								</div>
+							</div>
+
+							<div class="left-menu-block">
+								<div class="checkbox">
+									<label>
+										<input id="user-suffix-checkbox" class="user-suffix-checkbox" type="checkbox" value="#" autocomplete="off">Добавить произвольный суффикс
+									</label>
+								</div>
+								
+								<input id="user-suffix-value" class="form-control user-suffix-value" placeholder="Введите суффикс" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" user-suffix-value_msg-alrt-txt="Введите суффикс!">
+							</div>
+
+							<div class="left-menu-block radio-block">
+								<div class="radio">
+									<label>
+										<input class="jpg-extension-radio" type="radio" name="blankRadio-2" id="ext-radio-1" value="option1" aria-label="...">Добавить расширение ".jpg"
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input class="png-extension-radio" type="radio" name="blankRadio-2" id="ext-radio-2" value="option1" aria-label="...">Добавить расширение ".png"
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input class="svg-extension-radio" type="radio" name="blankRadio-2" id="ext-radio-3" value="option1" aria-label="...">Добавить расширение ".svg"
+									</label>
+								</div>
+							</div>
+
+							<div class="left-menu-block">
+								<div class="checkbox">
+									<label>
+										<input id="user-extension-checkbox" class="user-extension-checkbox" type="checkbox" value="#" autocomplete="off">Добавить произвольное расширение
+									</label>
+								</div>
+								
+								<input id="user-extension-value" class="form-control user-extension-value" placeholder="Введите расширение" data-container="body" data-toggle="popover" data-placement="right" data-content="" trigger="manual" autocomplete="off" user-extension-value_msg-alrt-txt="Введите расширение!">
+							</div>
+
+							<div class="left-menu-block">
+								<button type="button" id="left-menu-set-to-default-btn" class="left-menu-set-to-default-btn btn btn-default">По умолчанию</button>
+								<!-- КНОПКА СОХРАНИТЬ УБРАНА Т.К. НЕ НУЖНА -->
+								<!-- <button type="button" class="left-menu-save btn btn-success" data-toggle="modal" data-target=".under-construction-modal">Сохранить</button> -->
+								<div class="clearfix"></div>
+							</div>
+
+						</div>
+
+					</div>
+					<!-- LEFT-MENU CLOSED -->
+
+				</div>
+
+<!-- ALERT-POPUP OPEN -->
+<!-- <div id="alert-message" class="alert-message">
+	<p class="alert-message__text">быть больше минимального!</p>
+	<button type="button" id="alert-message__btn" class="alert-message__btn btn btn-danger" data-dismiss="modal">Close</button>
+</div> -->
+<!-- ALERT-POPUP CLOSED -->
+
+				<div class="about-the-author-wrap col-lg-6">
+
+					<!-- ABOUT THE AUTHOR MODAL OPEN -->
+					<!-- Modal -->
+					<div class="about-the-author-modal modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog modal-popup" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">Об авторе</h4>
+								</div>
+								<div class="modal-body about-the-author-text-body">
+									<div class="author-photo"></div>
+									<div class="about-the-author-text">
+										<p>Автор проекта – практикующий веб-разработчик. Этот генератор был создан, чтобы сделать процесс создания сайта чуточку удобнее и быстрее. Вы можете написать автору свои отзывы, комментарии и предложения (для этого нажмите на кнопку "Написать автору").</p>
+										<p>Данный проект не коммерческий, пользоваться им могут все и абсолютно бесплатно, но при желании вы можете поблагодарить автора за проделанную работу.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+
+								<div class="modal-footer about-the-author-footer">
+
+								<!-- 	<button type="button" class="btn btn-success donate-btn" data-toggle="modal" data-target=".under-construction-modal">Поблагодарить</button> -->
+									<button type="button" class="btn btn-success donate-btn">Поблагодарить</button>
+
+									<button class="btn btn-default message-to-the-author" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Написать автору</button>
+
+									<div class="clearfix"></div>
+
+								</div>
+
+								<form id="form-msg" method="POST" result-text="Cообщение отправлено!">
+
+									<div class="collapse" id="collapseExample">
+										<div class="well about-the-author-textarea-panel-body about-the-author-message-block">
+											<input type="text" class="form-control mail-topic" rows="1" name="email" placeholder="Ваш e-mail..." required>
+											<input type="text" class="form-control mail-topic" rows="1" name="name" placeholder="Ваше имя..." required>
+											<input type="text" class="form-control mail-topic" rows="1" name="topic" placeholder="Тема сообщения..." required>
+											<textarea type="text" class="form-control about-the-author-textarea" rows="3" name="text" placeholder="Введите текст сообщения..."></textarea>
+											<button type="submit" class="btn btn-default about-the-author-submit-btn">Отправить</button>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+					<!-- ABOUT THE AUTHOR MODAL CLOSED -->
+
+					<!-- UNDER CONSTRUCTION MODAL OPEND-->
+					<!-- <div class="modal fade under-construction-modal under-construction" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+						<div class="modal-dialog modal-sm under-construction__modal" role="document" style="width: 300px; margin:30px auto">
+							<div class="modal-content under-construction__content">
+								<div class="under-construction__close">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								</div>
+								<div class="clearfix"></div>
+								<div class="under-construction__img"><img src="img/worker.png" alt="Worker"></div>
+								<div class="modal-header under-construction__header">
+									<h4 class="modal-title" id="myModalLabel">Функция находится в процессе разработки...</h4>
+								</div>
+								<div class="under-construction__text">
+									<p>Сожалеем, но данная функция разрабатывается. Мы делаем все, чтобы вы как можно скорее смогли ею пользоваться.</p>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!-- UNDER CONSTRUCTION MODAL CLOSED-->
+
+				</div>
+
+				<div class="generator">
+
+					<h1 class="welcome">Добро пожаловать в суффиксальный генератор случайных чисел!</h1>
+					<a class="instraction" href="#">Как пользоваться?</a>
+
+					<form class="output-form" autocomplete="off">
+						<div class="form-group form-inline">
+							<div class="input-group">
+								<output type="text" id="output" class="form-control output" output_msg-err-txt="Ой, что-то не так :("></output>
+								<div id="output-btn" class="output-btn input-group-addon btn-clipboard" data-clipboard-target="#output" style="width: 89px; height: 34px"><div class="output-btn__tooltip-zone" data-toggle="tooltip" data-placement="top" title="Копировать в буфер"></div>
+									<span class="glyphicon glyphicon-copy"></span>
+									<span class="glyphicon glyphicon-ok"></span>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<button type="submit" id="get-num-btn" class="get-num-btn btn btn-default btn-lg">Получить число</button>
+
+				</div>
+
+			</div>
+
+			<div class="arrow-wrap">
+				<div class="arrow-bottom header-arrow-bottom"></div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- HEADER-CONTENT CLOSED -->
+</header>
+<!-- HEADER CLOSED -->
+
+<!-- ARROW SCROLL TO TOP OPENED -->
+	<div class="arrow-scroll-to-top animated"><span class="glyphicon glyphicon-triangle-top arrow-scroll-to-top__arrow"></span></div>
+<!-- ARROW SCROLL TO TOP ARROW CLOSED -->
+
+<!-- SECTION-1 OPENED -->
+<section class="section-1">
+
+<div class="section-overlay-dark">
+
+	<div class="arrow-top-wrap">
+		<div class="arrow-top section-1-arrow-top"></div>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="section-1-content col-lg-12">
+
+				<h2 class="content-header animated tracked show-scroll-btn-point">Что такое суффиксальный генератор случайных чисел?</h2>
+				<p class="content-text animated tracked">Суффиксальный генератор случайных чисел – это программа, которая генерирует случайное число в определенном пользователем диапазоне и прибавляет к этому числу установленные пользователем суффиксы и окончание.</p>
+
+				<div class="circle-wrap">
+					<div class="circle circle-1 animated"><span class="circle-1-text">123</span></div>
+					<div class="plus animated"></div>
+					<div class="circle circle-2 animated"><span class="circle-2-text">.abc</span></div>
+					<div class="plus animated"></div>
+					<div class="circle circle-3 animated"><span class="circle-3-text">.jpg</span></div>
+				</div>
+
+				<h2 class="content-header animated tracked">Для чего был создан суффиксальный генератор случайных чисел?</h2>
+				<p class="content-text animated tracked">Суффиксальный генератор случайных чисел был создан для того, чтобы помочь веб-разработчикам автоматизировать процесс именования нового файла с изображением.</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="arrow-bottom-wrap">
+		<div class="arrow-bottom section-1-arrow-bottom"></div>
+	</div>
+
+</div>
+
+</section>
+<!-- SECTION-1 CLOSED -->
+
+<!-- SECTION-2 OPENED -->
+<section class="section-2">
+
+	<div class="section-2-back-img">
+
+		<div class="section-overlay-light">
+
+			<div class="arrow-top-wrap">
+				<div class="arrow-top section-2-arrow-top"></div>
+			</div>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="section-2-content col-lg-12">
+
+						<h2 class="content-header animated tracked">Как возникла эта идея?</h2>
+						<p class="content-text animated tracked">Одна из наиболее часто выполняемых операций в веб-разработке – это создание и оптимизация изображений для сайта. Тем более, если речь идет о поддержке уже действующих ресурсов, где необходимо добавлять или менять изображения. В этом случае разработчик непременно столкнется с процедурой именования файла с изображением, т.е. придется обязательно дать название этому файлу. Когда таких файлов немного, придумать название не составляет труда, например logo.png или Winnie_the_Pooh.jpg. Но если речь идет о добавлении нового изображения в уже имеющуюся большую базу изображений, которые используются на различных страницах сайта, то тут обязательно возникнет вопрос: <strong class="italic">Какое название дать файлу с изображением?</strong> Ведь у нас в базе находятся сотни различных файлов, и файл с таким именем уже запросто может там существовать.</p>
+						<p class="content-text animated tracked">Один из способов решения данной задачи – дать новому файлу в качестве названия случайное число в определенном диапазоне. Для этого и был создан данный генератор.</p>
+						<p class="content-text animated tracked"><span class="attention">Внимание!</span> Данный способ именования изображений подходит только тогда, когда вам не нужно слишком заботиться об оптимизации изображений для лучшей индексации поисковыми системами.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="arrow-bottom-wrap">
+				<div class="arrow-bottom section-2-arrow-bottom"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+<!-- SECTION-2 CLOSED -->
+
+<!-- SECTION-3 OPENED -->
+<section class="section-3">
+
+	<div class="section-3-back-img">
+
+		<div class="section-overlay-dark">
+
+			<div class="arrow-top-wrap">
+				<div class="arrow-top section-3-arrow-top"></div>
+			</div>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="section-3-content col-lg-12">
+
+						<h2 class="content-header animated tracked">Для чего нужны суффиксы?</h2>
+						<p class="content-text animated tracked">Суффикс, добавляемый к числу – это дополнительная классификация, разработанная для удобства сортировки файлов с изображениями. Например, суффикс «.a» указывает на то, что это изображение принадлежит к классу “article” – «статья» и будет размещено на сайте внутри какой-нибудь статьи, а суффикс «.s» указывает на то, что это изображение принадлежит к классу “sidebar” т.е. «боковая панель» и будет размещено на боковой панели сайта. Вы можете придумать свой суффикс, указав его в поле «Добавить произвольный суффикс» в панели конфигурации.</p>
+						<p class="content-text animated tracked">Данный генератор создавался для упрощения работы конкретного веб-разработчика и стандартная классификация суффиксов определена именно его потребностями. Вы можете задавать произвольные суффиксы и окончания в панели конфигурации.</p>
+
+						<h2 class="content-header animated tracked">Для чего нужны окончания?</h2>
+						<p class="content-text animated tracked">Окончание файла – это не что иное, как расширение файла с изображением, например “.jpg”, “.png” или “.svg”.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="arrow-bottom-wrap">
+				<div class="arrow-bottom section-3-arrow-bottom"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+<!-- SECTION-3 CLOSED -->
+
+<!-- SECTION-4 OPENED -->
+<section class="section-4">
+
+	<div class="section-4-back-img">
+
+		<div class="section-overlay-light">
+
+			<div class="arrow-top-wrap">
+				<div class="arrow-top section-4-arrow-top"></div>
+			</div>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="section-4-content col-lg-12">
+
+						<!-- <h2 class="content-header animated tracked">Для чего нужен аккаунт?</h2>
+						<p class="content-text animated tracked">Аккаунт необходим для сохранения параметров своей собственной конфигурации генератора. Вы можете создать аккаунт, нажав на соответствующую кнопку в правом верхнем углу сайта. Далее вам будет необходимо придумать имя пользователя и пароль, подтвердить регистрацию, перейдя по ссылке в письме на вашем почтовом ящике, после чего конфигурацию можно будет изменить и сохранить в панели конфигурации.</p> -->
+
+						<h2 class="content-header animated content-header-2 tracked">Диапазон и неповторимость чисел</h2>
+						<p class="content-text animated tracked">По умолчанию в программе установлен диапазон чисел от 100000 до 999999, что соответствует десятичному числу с шестью разрядами из выборки, состоящей из 899999 чисел, что обеспечивает определенную степень неповторимости сгенерированного числа. Вы можете задать другой диапазон в панели конфигурации в левом верхнем углу сайта.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="arrow-bottom-wrap">
+				<div class="arrow-bottom section-4-arrow-bottom"></div>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+<!-- SECTION-4 CLOSED -->
+
+<!-- SECTION-5 OPENED -->
+<section class="section-5">
+
+	<div class="section-5-back-img">
+
+		<div class="section-overlay-dark">
+
+			<div class="arrow-top-wrap">
+				<div class="arrow-top section-5-arrow-top"></div>
+			</div>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="section-5-content col-lg-12">
+
+						<h2 class="content-header how-to-use-header animated tracked">Как пользоваться генератором?</h2>
+						<p class="content-text animated tracked">Пользоваться генератором очень просто. Для быстрой генерации числа просто нажмите кнопку «Получить число», при этом в поле вывода будет сгенерировано десятичное число с шестью разрядами в диапазоне от 100000 до 999999. Для того, чтобы добавить суффикс и/или окончание к числу необходимо выбрать нужный пункт в панели конфигурации в левом верхнем углу сайта. Также там можно добавит произвольный суффикс, окончание и установить пользовательский диапазон генерации чисел. Чтобы скопировать полученное число нажмите кнопку «Скопировать в буфер» рядом с числом или нажмите сочетание клавиш “Ctrl + C” либо выделите число и воспользуйтесь контекстным меню.</p>
+
+						<p class="content-text nice-work animated tracked">Приятной работы!</p>
+					<div class="teg-img"><img src="img/teg.png" alt="Teg"></div>
+					</div>
+
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+<!-- SECTION-5 CLOSED -->
+
+<!-- FOOTER OPENED -->
+<footer class="footer">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="footer-left-block col-lg-2 col-md-2 col-sm-3 col-xs-12">
+				<a href="index.html" class="footer-left-block__logo"><img src="img/logo.svg" alt="Sufnums generator"></a>
+			</div>
+
+			<div class="footer-middle-block col-lg-7 col-md-8 col-sm-6 col-xs-12">
+				<nav>
+					<ul class="menu">
+						<li class="menu__item menu-bottom menu-bottom-sm"><a class="menu__href menu__href-about-project" href="#">О проекте</a></li>
+						<li class="menu__item menu-bottom menu-bottom-sm"><a class="menu__href menu__href-instraction-footer" href="#">Инструкция</a></li>
+						<li class="menu__item menu-bottom menu-bottom-sm"><a class="menu__href menu__href-account" href="#">Для чего нужен аккаунт?</a></li>
+						<li class="menu__item menu-bottom menu-bottom-sm"><a class="menu__href menu__href-about-author" data-toggle="modal" data-target="#myModal" href="#">Об авторе</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer-right-block col-lg-3 col-xs-12 visible-lg visible-xs">
+				<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus"></div>
+			</div>
+
+			<div class="footer-right-block-md-wrap col-md-2 col-sm-3 hidden-lg hidden-xs">
+				<div class="footer-right-block-md-top">
+					<div class="ya-share2 ya-share2-md" data-services="vkontakte,facebook,odnoklassniki"></div>
+				</div>
+
+				<div class="footer-right-block-md-bottom">
+					<div class="ya-share2 ya-share2-md" data-services="moimir,gplus"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="bottom-line-wrap">
+		<a href="#" class="bottom-line-href-wrapper">
+			<div class="arrow-footer"></div>
+		</a>
+		<div class="copyright">&copy; <a href="#" data-toggle="modal" data-target="#myModal">Created by Mikhail Korablik, 2018</a></div>
+	</div>
+
+</footer>
+<!-- FOOTER CLOSED -->
+
+<!-- ADD CSS HERE -->
+<!--Animate CSS-->
+	<link rel="stylesheet" href="libs/animate.min.css">
+
+<!-- ADD JAVASCRIPT HERE -->
+<script src="libs/es5-shims.min.js"></script>
+<!--jQuery v2.2.1-->
+<script src="libs/jquery.min.js"></script>
+<!--Bootstrap v3.3.7-->
+<script src="libs/bootstrap.min.js"></script>
+<!--Waypoints-->
+<script src="libs/waypoints.min.js"></script>
+<!-- Yandex share icons -->
+<script src="libs/share.js"></script>
+<!-- Копирование в буфер с помощью Clipboard.js-->
+<script src="libs/clipboard.min.js"></script>
+
+<script src="js/common.min.js" async></script>
+<script src="js/generator.min.js" async></script>
+
+<!-- Загрузка прелоадера -->
+<script>
+	document.body.onload=function()
+		{
+			setTimeout(function()
+			{
+				var preloader = document.getElementById('site-preloader');
+				if ( !preloader.classList.contains('done') )
+				{
+					preloader.classList.add('done');
+				}
+			}, 1000)
+		};
+</script>
+
+</body>
+
+</html>
