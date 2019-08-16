@@ -41,7 +41,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#233e42">
     <!-- Custom Browsers Color End -->
   
-    <!-- <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #272727; }</style> -->
+    <style>body { opacity: 0; overflow-x: hidden; transition: all 1s ease; } html { background-color: #ffffff; transition: all 1s ease; }</style>
 
     <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   
@@ -376,6 +376,16 @@
 
   </footer>
   <!-- FOOTER CLOSED -->
+
+  <script>
+    // preloader OPENED
+    document.body.onload = function()
+    {
+      document.querySelector('html').style.backgroundColor = 'transparent';
+      document.querySelector('body').style.opacity = '1';
+    };
+    // preloader CLOSED
+  </script>
 
   <script src="js/scripts.js"></script>
   <!-- <script src="js/scripts.min.js"></script> -->
