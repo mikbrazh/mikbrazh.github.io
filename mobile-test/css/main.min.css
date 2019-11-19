@@ -2274,11 +2274,11 @@ html {
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #208020; }
+  background-color: #c0c0c0; }
 
 ::selection {
   color: #ffffff;
-  background-color: #208020; }
+  background-color: #c0c0c0; }
 
 body {
   position: relative;
@@ -2337,12 +2337,7 @@ p {
 .accordionjs__btn {
   margin-bottom: 20px;
   height: 100px;
-  font-family: "TrebuchetMS", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: 1.2px;
   text-align: center;
-  color: #f2f2f2;
   border: solid 2px #c4c4c4;
   -webkit-border-radius: 20px 0 20px 0;
           border-radius: 20px 0 20px 0;
@@ -2356,7 +2351,12 @@ p {
 .accordionjs__title {
   position: relative;
   margin-left: 64px;
-  line-height: 100px; }
+  font-family: "TrebuchetMS", Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: normal;
+  line-height: 100px;
+  letter-spacing: 1.2px;
+  color: #f2f2f2; }
   .accordionjs__title::before {
     content: '';
     position: absolute;
@@ -2385,9 +2385,6 @@ p {
 .accordionjs__title--polish::before {
   background-image: url(../img/@2x/car-polish@2x.png); }
 
-.accordionjs__items {
-  font-size: 16px; }
-
 .accordionjs__item {
   margin-bottom: 20px; }
   .accordionjs__item:last-child {
@@ -2403,7 +2400,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2421,7 +2418,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2439,7 +2436,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2457,7 +2454,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2475,7 +2472,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2493,7 +2490,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2511,7 +2508,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2529,7 +2526,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2547,7 +2544,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
@@ -2565,7 +2562,7 @@ p {
     background-image: -o-linear-gradient(bottom, #d50000, #ff5f5f), -o-linear-gradient(top, #d50000, #d50000);
     background-image: linear-gradient(to top, #d50000, #ff5f5f), linear-gradient(to bottom, #d50000, #d50000);
     font-family: "HelveticaNeueCyr", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 1.65px;
