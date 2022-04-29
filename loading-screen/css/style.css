@@ -297,8 +297,8 @@ template {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  width: 100vw;
-  height: 100vh; }
+  width: 375px;
+  height: 812px; }
 
 .circle-bg-1 {
   position: absolute;
