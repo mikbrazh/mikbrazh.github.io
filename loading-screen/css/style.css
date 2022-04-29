@@ -293,7 +293,83 @@ template {
   src: url("../fonts/OpenSans/OpenSans-Bold.eot");
   src: url("../fonts/OpenSans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); }
 
-.circle-bg-wrap {
+::-webkit-input-placeholder {
+  color: #c0c0c0; }
+
+::-moz-placeholder {
+  color: #c0c0c0; }
+
+::-ms-input-placeholder {
+  color: #c0c0c0; }
+
+::placeholder {
+  color: #c0c0c0; }
+
+::-moz-selection {
+  color: #ffffff;
+  background-color: #ffffff; }
+
+::selection {
+  color: #ffffff;
+  background-color: #ffffff; }
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-family: "OpenSansRegular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 1.25px;
+  color: #626F82;
+  background-color: #fff; }
+  body input, body textarea {
+    margin: 0;
+    padding: 0;
+    outline: none; }
+
+b, strong {
+  font-weight: bold; }
+
+a:hover {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+  /* Remove excess padding and border in Firefox 4+ */ }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.loading-layout {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
