@@ -394,7 +394,7 @@ button {
     width: 84.29px;
     height: 41.19px;
     z-index: 999;
-    background-image: url("../img/svg/clouds--iphone13mini-12.svg");
+    background-image: url("../img/svg/clouds-12.svg");
     -webkit-background-size: 100% auto;
             background-size: 100% auto;
     background-repeat: no-repeat; }
@@ -406,12 +406,12 @@ button {
     z-index: 999;
     width: 14.28px;
     height: 14.28px;
-    background-image: url("../img/@2x/plus--iphone13mini-12@2x.png");
+    background-image: url("../img/svg/plus.svg");
     -webkit-background-size: 100% auto;
             background-size: 100% auto;
     background-repeat: no-repeat; }
 
-.artwork__circle--outer {
+.artwork__circle-outer {
   position: relative;
   width: 318px;
   height: 318px;
@@ -420,30 +420,30 @@ button {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71);
           box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71); }
-  .artwork__circle--outer::before {
+  .artwork__circle-outer::before {
     content: '';
     position: absolute;
     top: 10.5px;
     left: 14.5px;
     width: 302.88px;
     height: 197.62px;
-    background-image: url("../img/@2x/person-top--iphone13mini-12@2x.png");
+    background-image: url("../img/@2x/person-top-12@2x.png");
     -webkit-background-size: 100% auto;
             background-size: 100% auto;
     background-repeat: no-repeat; }
-  .artwork__circle--outer::after {
+  .artwork__circle-outer::after {
     content: '';
     position: absolute;
     top: 0;
     right: 8px;
     width: 99.26px;
     height: 100%;
-    background-image: url("../img/@2x/leaves--iphone13mini-12@2x.png");
+    background-image: url("../img/@2x/leaves-12@2x.png");
     -webkit-background-size: 100% auto;
             background-size: 100% auto;
     background-repeat: no-repeat; }
 
-.artwork__circle--inner {
+.artwork__circle-inner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -457,14 +457,14 @@ button {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
-  .artwork__circle--inner::before {
+  .artwork__circle-inner::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 257.2px;
     height: 257.2px;
-    background-image: url("../img/@2x/person-bottom--iphone13mini-12@2x.png");
+    background-image: url("../img/@2x/person-bottom-12@2x.png");
     -webkit-background-size: 100% auto;
             background-size: 100% auto;
     background-repeat: no-repeat; }
