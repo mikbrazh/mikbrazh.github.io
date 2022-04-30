@@ -373,8 +373,8 @@ button {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  width: 375px;
-  height: 812px; }
+  width: 100vw;
+  height: 100vh; }
 
 .circle-bg-lg {
   position: absolute;
