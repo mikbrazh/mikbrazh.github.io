@@ -375,7 +375,7 @@ html, body {
   font-family: 'Open Sans'; }
 
 .section {
-  padding: 82px 26px 67px;
+  padding: 40px 26px 67px;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -503,10 +503,10 @@ html, body {
   line-height: 147%;
   color: #626F82; }
 
-.indicators {
+.pagination {
   margin-bottom: 33px; }
 
-.indicators__item {
+.pagination__bullet {
   display: inline-block;
   margin-right: 10px;
   height: 8px;
@@ -514,10 +514,10 @@ html, body {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   background: #C4C4C4; }
-  .indicators__item:last-child {
+  .pagination__bullet:last-child {
     margin-right: 0; }
 
-.indicators__item--active {
+.pagination__bullet--active {
   width: 17px;
   height: 8px;
   background: #FF5750;
