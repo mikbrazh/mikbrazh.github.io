@@ -369,90 +369,149 @@ button {
     border: 0;
     padding: 0; }
 
-.loading-layout {
+.iphone13mini-13-layout {
   position: relative;
-  overflow: hidden;
   margin: 0 auto;
+  padding: 82px 27px 67px;
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
 
-.circle-bg-lg {
-  position: absolute;
-  top: 55px;
-  left: 50%;
-  width: 674px;
-  height: 674px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  background: rgba(255, 255, 255, 0.02);
-  -webkit-box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71);
-          box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71); }
-  .circle-bg-lg::after {
-    content: '';
-    position: absolute;
-    bottom: 26px;
-    right: 74px;
-    width: 218px;
-    height: 116px;
-    background-image: url("../img/svg/clouds-lg.svg"); }
+.logo {
+  display: block;
+  margin: 0 auto 17px; }
 
-.circle-bg-md {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 470px;
-  height: 470px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.14);
-  -webkit-box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71);
-          box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71); }
+.artwork {
+  position: relative;
+  margin: 0 auto 51px;
+  width: 320px;
+  height: 320px; }
 
-.circle-bg-sm {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.artwork__circle-outer {
+  position: relative;
   width: 318px;
   height: 318px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  background: #fff;
+  background: #FFFFFF;
   -webkit-box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71);
           box-shadow: 0px 17.1377px 67.5988px rgba(227, 237, 242, 0.71); }
-  .circle-bg-sm::before {
+  .artwork__circle-outer::before {
     content: '';
     position: absolute;
-    top: 42px;
-    left: 8px;
-    width: 84.29px;
-    height: 41.19px;
-    background-image: url("../img/svg/clouds-sm.svg"); }
-  .circle-bg-sm::after {
+    bottom: -22px;
+    right: 72px;
+    z-index: 999;
+    width: 71.11px;
+    height: 63.09px;
+    background-image: url("../img/@2x/chatcloud-lg-13@2x.png");
+    -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+    background-repeat: no-repeat; }
+  .artwork__circle-outer::after {
     content: '';
     position: absolute;
-    bottom: 37px;
-    right: 43px;
-    width: 19px;
-    height: 19px;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    background-color: #C5C5FF; }
+    top: 57px;
+    left: 47px;
+    width: 35.05px;
+    height: 32.05px;
+    background-image: url("../img/@2x/chatcloud-sm-13@2x.png");
+    -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+    background-repeat: no-repeat; }
 
-.loading-screen__logo {
+.artwork__circle-inner {
   position: absolute;
-  width: 279px;
-  height: 36px;
-  left: 52%;
-  top: 52%;
+  top: 50%;
+  left: 50%;
+  width: 257.2px;
+  height: 257.2px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #75CEF9;
+  overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
+  .artwork__circle-inner::before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    width: 243.86px;
+    height: 397.11px;
+    background-image: url("../img/@2x/person-13@2x.png");
+    -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+    background-repeat: no-repeat;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%); }
+  .artwork__circle-inner::after {
+    content: '';
+    position: absolute;
+    top: 97px;
+    right: 26px;
+    width: 14.37px;
+    height: 14.37px;
+    background-image: url("../img/svg/plus.svg");
+    -webkit-background-size: 100% auto;
+            background-size: 100% auto;
+    background-repeat: no-repeat; }
+
+.title {
+  margin-bottom: 9px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 134%;
+  text-align: center;
+  color: #000; }
+
+.description {
+  display: block;
+  margin-bottom: 32px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 147%;
+  text-align: center;
+  color: #626F82; }
+
+.indicators {
+  margin-bottom: 33px;
+  text-align: center; }
+
+.indicators__item {
+  display: inline-block;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #C4C4C4; }
+  .indicators__item:last-child {
+    margin-right: 0; }
+
+.indicators__item--active {
+  width: 17px;
+  height: 8px;
+  background: #FF5750;
+  -webkit-border-radius: 4px;
+          border-radius: 4px; }
+
+.href-btn-wrap {
+  text-align: center; }
+
+.href-btn {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 145.19%;
+  letter-spacing: 0;
+  color: #8B818E; }
