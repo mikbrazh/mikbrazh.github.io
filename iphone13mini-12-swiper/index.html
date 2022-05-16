@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- <base href="/"> -->
+  <title>layoutStarter</title>
+  <meta name="description" content="#">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+  <!-- Base Open Graph START-->
+  <meta property="og:type" content="#">
+  <meta property="og:site_name" content="#">
+  <meta property="og:url" content="#">
+  <meta property="og:locale" content="ru">
+  <meta name="twitter:creator" content="#">
+  <meta name="twitter:card" content="#">
+  <meta property="og:title" content="#">
+  <meta property="og:description" content="#">
+  <meta property="og:image" content="#">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- Base Open Graph END -->
+
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- <link rel="canonical" href="http://#"> -->
+
+  <!-- Favicons START -->
+  <link rel="apple-touch-icon" sizes="180x180" href="#">
+  <link rel="icon" type="image/png" sizes="32x32" href="#">
+  <link rel="icon" type="image/png" sizes="16x16" href="#">
+  <link rel="manifest" href="#">
+  <link rel="mask-icon" href="#" color="#">
+  <link rel="shortcut icon" href="#">
+  <!-- Favicons END -->
+
+  <!-- Address bar color START -->
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#E5E5E5">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#E5E5E5">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#E5E5E5">
+  <!-- Address bar color END -->
+
+  <!-- <link rel="stylesheet" href="css/vendor.min.css"> -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <style>
+    .swiper {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .swiper-pagination-bullet {
+      height: 8px;
+      width: 8px;
+      background: #C4C4C4;
+    }
+
+    .swiper-pagination-bullet-active {
+      width: 17px;
+      height: 8px;
+      border-radius: 4px;
+      background: #FF5750;
+    }
+  </style>
+</head>
+
+<body>
+<section class="section">
+  <div class="box logo-wrap">
+    <img class="logo" src="img\svg\logo.svg" alt="Логотип MEDARS">
+  </div>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box picture">
+          <div class="picture__circle-wrap">
+            <div class="picture__circle-outer">
+              <div class="picture__circle-inner"></div>
+            </div>
+          </div>
+        </div>
+        <h1 class="box title"><span class="title--blue">Добро пожаловать</span><br> в Medars!</h1>
+        <span class="box desc">Получите мнение врачей онлайн.<br> В любое время и в любом удобном<br> месте по видеосвязи, телефону или чате</span>
+      </div>
+      <div class="swiper-slide">
+        <div class="box picture">
+          <div class="picture__circle-wrap">
+            <div class="picture__circle-outer">
+              <div class="picture__circle-inner"></div>
+            </div>
+          </div>
+        </div>
+        <h1 class="box title"><span class="title--blue">Добро пожаловать</span><br> в Medars!</h1>
+        <span class="box desc">Получите мнение врачей онлайн.<br> В любое время и в любом удобном<br> месте по видеосвязи, телефону или чате</span>
+      </div>
+      <div class="swiper-slide">
+        <div class="box picture">
+          <div class="picture__circle-wrap">
+            <div class="picture__circle-outer">
+              <div class="picture__circle-inner"></div>
+            </div>
+          </div>
+        </div>
+        <h1 class="box title"><span class="title--blue">Добро пожаловать</span><br> в Medars!</h1>
+        <span class="box desc">Получите мнение врачей онлайн.<br> В любое время и в любом удобном<br> месте по видеосвязи, телефону или чате</span>
+      </div>
+    </div>
+      <div class="box swiper-pagination"></div>
+  </div>
+  <div class="box btn-wrap">
+    <a class="btn" href="#">Пропустить</a>
+  </div>
+</section>
+
+<script src="js/vendor.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+</script>
+
+</body>
+</html>
