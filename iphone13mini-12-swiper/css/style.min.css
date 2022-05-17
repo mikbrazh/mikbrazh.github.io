@@ -404,12 +404,15 @@ html, body {
 
 .desc {
   display: block;
-  margin-bottom: 87px;
+  margin-bottom: 50px;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 147%;
   color: #626F82; }
+
+.desc-picture-12, .desc-picture-13 {
+  margin-bottom: 70px; }
 
 .title {
   margin-bottom: 13px;
