@@ -1,0 +1,1284 @@
+Uri: http://fonts.googleapis.com/css?family=Tinos&subset=latin,cyrillic-ext
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\css
+Content Type: text/css
+
+Uri: http://fonts.googleapis.com/css?family=Tinos:400italic&subset=latin,cyrillic-ext
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\css-1
+Content Type: text/css
+
+Uri: http://fonts.gstatic.com/s/tinos/v24/buE2poGnedXvwjX-TmtJ8A.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\s\tinos\v24\buE2poGnedXvwjX-TmtJ8A.ttf
+Content Type: font/ttf
+
+Uri: http://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwjX2fmE.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\s\tinos\v24\buE4poGnedXvwjX2fmE.ttf
+Content Type: font/ttf
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.2.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\css\font-awesome.css
+Content Type: text/css
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts/fontawesome-webfont.eot?v=4.0.3
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts/fontawesome-webfont.svg?v=4.0.3
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts/fontawesome-webfont.ttf?v=4.0.3
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: http://netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts/fontawesome-webfont.woff?v=4.0.3
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\font-awesome\4.0.3\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: http://vkusmenu.com/
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\index.htm
+Content Type: text/html
+
+Uri: http://vkusmenu.com/assets/templates/creato/css/animate.css
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\css\animate.css
+Content Type: text/css
+
+Uri: http://vkusmenu.com/assets/templates/creato/css/contact-form.css?ver=1.11
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\css\contact-form.css
+Content Type: text/css
+
+Uri: http://vkusmenu.com/assets/templates/creato/css/grid.css?ver=2.91
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\css\grid.css
+Content Type: text/css
+
+Uri: http://vkusmenu.com/assets/templates/creato/css/style.css?ver=2.957
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\css\style.css
+Content Type: text/css
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.eot
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.eot?iefix
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.otf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light.otf
+Content Type: application/x-font-otf
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light.ttf
+Content Type: application/octet-stream
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Light.woff
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Light.woff
+Content Type: font/woff
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.eot
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.eot?iefix
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.otf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium.otf
+Content Type: application/x-font-otf
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium.ttf
+Content Type: application/octet-stream
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Medium.woff
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Medium.woff
+Content Type: font/woff
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.eot
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.eot?iefix
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.otf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular.otf
+Content Type: application/x-font-otf
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular.ttf
+Content Type: application/octet-stream
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Regular.woff
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Regular.woff
+Content Type: font/woff
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.eot
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.eot?iefix
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.otf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold.otf
+Content Type: application/x-font-otf
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.ttf
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold.ttf
+Content Type: application/octet-stream
+
+Uri: http://vkusmenu.com/assets/templates/creato/fonts/SFUIDisplay-Semibold.woff
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\fonts\SFUIDisplay-Semibold.woff
+Content Type: font/woff
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/css/tmMultimediaGallery.css
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\css\tmMultimediaGallery.css
+Content Type: text/css
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/images/gallery-loader-list.gif
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\images\gallery-loader-list.gif
+Content Type: image/gif
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/images/gallery-loader.gif
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\images\gallery-loader.gif
+Content Type: image/gif
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/isotope.pkgd.min.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\isotope.pkgd.min.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/jquery-ui-1.10.3.custom.min.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\jquery-ui-1.10.3.custom.min.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/jquery.touchSwipe.min.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\jquery.touchSwipe.min.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/jquery.ui.touch-punch.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\jquery.ui.touch-punch.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/tmDraggablePagination.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\tmDraggablePagination.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/tmFileList.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\tmFileList.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/tmMultimediaGallery.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\tmMultimediaGallery.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/tmMultimediaGallery_init.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\tmMultimediaGallery_init.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/gallery/js/tmPaginationGenerator.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\gallery\js\tmPaginationGenerator.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/equipment-logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\equipment-logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/favicon/favicon114x114.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\favicon\favicon114x114.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/favicon/favicon144x144.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\favicon\favicon144x144.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/favicon/favicon16x16.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\favicon\favicon16x16.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/favicon/favicon57x57.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\favicon\favicon57x57.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/favicon/favicon72x72.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\favicon\favicon72x72.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/hover-icon.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\hover-icon.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/logo-footer.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\logo-footer.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/logo-header.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\logo-header.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/logo-salfetnici.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\logo-salfetnici.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/map_2019.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\map_2019.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/001_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\001_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/002_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\002_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/003_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\003_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/004_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\004_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/005_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\005_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/006_logo.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\006_logo.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/008_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\008_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/009_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\009_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/010_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\010_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/011_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\011_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/012_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\012_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/013_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\013_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/014_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\014_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/016_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\016_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/017_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\017_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/018_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\018_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/019_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\019_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/022_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\022_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/024_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\024_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/027_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\027_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/028_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\028_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/029_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\029_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/030_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\030_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/115_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\115_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/116_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\116_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/117_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\117_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/118_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\118_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/120_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\120_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/122_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\122_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/partners/logo-svg/123_logo.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\partners\logo-svg\123_logo.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/sale.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\sale.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/images/spine.png
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\images\spine.png
+Content Type: image/png
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/jquery-migrate-1.2.1.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\jquery-migrate-1.2.1.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/jquery.form.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\jquery.form.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/jquery.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\jquery.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/logosvg/jsclick.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\logosvg\jsclick.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/modal.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\modal.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/script.js?ver=2.12
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\script-1.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/script.js?ver=2.12b
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\script.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/TMForm.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\TMForm.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/assets/templates/creato/js/wow/wow.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\assets\templates\creato\js\wow\wow.js
+Content Type: application/javascript
+
+Uri: http://vkusmenu.com/contact
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\contact.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/feedbacks
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\feedbacks.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/food-photo-shooting
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\food-photo-shooting.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/images/amarena/cover/cover-amarena-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\amarena\cover\cover-amarena-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/amarena/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\amarena\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/amsterdam/cover/cover-amsterdam.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\amsterdam\cover\cover-amsterdam.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/amsterdam/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\amsterdam\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/apres-ski/cover/cover-apres-ski.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\apres-ski\cover\cover-apres-ski.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/apres-ski/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\apres-ski\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/bacardi/cover/cover-bacardi.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bacardi\cover\cover-bacardi.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/bacardi/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bacardi\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/bamboo/cover/cover-bamboo.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bamboo\cover\cover-bamboo.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/bamboo/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bamboo\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/bamboobar/cover/cover-bamboobar-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bamboobar\cover\cover-bamboobar-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/bamboobar/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\bamboobar\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/buritto/cover/cover-buritto.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\buritto\cover\cover-buritto.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/buritto/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\buritto\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/chalet/cover/cover-chalet.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\chalet\cover\cover-chalet.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/chalet/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\chalet\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/dobrograd/cover/cover-dobrograd.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\dobrograd\cover\cover-dobrograd.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/dobrograd/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\dobrograd\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/eda-vino-i-tantsy-menu/cover/cover-eda-vino-i-tantsy-menu.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\eda-vino-i-tantsy-menu\cover\cover-eda-vino-i-tantsy-menu.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/eda-vino-i-tantsy-menu/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\eda-vino-i-tantsy-menu\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/eda-vino-i-tantsy-salfetnitsa/cover/cover-eda-vino-i-tantsy-salfetnitsa.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\eda-vino-i-tantsy-salfetnitsa\cover\cover-eda-vino-i-tantsy-salfetnitsa.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/eda-vino-i-tantsy-stakan/cover/cover-eda-vino-i-tantsy-stakan-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\eda-vino-i-tantsy-stakan\cover\cover-eda-vino-i-tantsy-stakan-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/expromt-coins/cover/cover-expromt-coins.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\expromt-coins\cover\cover-expromt-coins.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/expromt-dirs/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\expromt-dirs\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/formaggi/cover/cover-formaggi.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\formaggi\cover\cover-formaggi.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/formaggi/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\formaggi\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/galki/cover/cover-galki.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\galki\cover\cover-galki.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/galki/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\galki\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/granat/cover/cover-granat.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\granat\cover\cover-granat.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/granat/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\granat\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/hozain-taigi/cover/cover-hozain-taigi.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\hozain-taigi\cover\cover-hozain-taigi.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/hozain-taigi/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\hozain-taigi\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/iz-brasserie/cover/cover-iz-brasserie-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\iz-brasserie\cover\cover-iz-brasserie-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/iz-brasserie/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\iz-brasserie\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/kulinari-myshelovki/cover/cover-myshelovki-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\kulinari-myshelovki\cover\cover-myshelovki-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/kulinari-myshelovki/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\kulinari-myshelovki\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/limerik/cover/cover-limerik.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\limerik\cover\cover-limerik.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/limerik/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\limerik\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/logotype-3.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\logotype-3.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/main.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\main.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/mamas/cover/cover-mamas.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mamas\cover\cover-mamas.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/mamas/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mamas\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/mate/cover/cover-mate.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mate\cover\cover-mate.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/mate/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mate\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/mindal/cover/cover-mindal.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mindal\cover\cover-mindal.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/mindal/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\mindal\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/nomerki-tunguska/cover/cover-nomerki-tunguska.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\nomerki-tunguska\cover\cover-nomerki-tunguska.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/nomerki-tunguska/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\nomerki-tunguska\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/ogon-i-led/cover/cover-ogon-i-led.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\ogon-i-led\cover\cover-ogon-i-led.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/ogon-i-led/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\ogon-i-led\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/olivje/cover/cover-olivje.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\olivje\cover\cover-olivje.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/olivje/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\olivje\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/olivo/cover/cover-olivo.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\olivo\cover\cover-olivo.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/olivo/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\olivo\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/ostrovok/cover/cover-ostrovok.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\ostrovok\cover\cover-ostrovok.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/ostrovok/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\ostrovok\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/pastrami/cover/cover-pastrami-01.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pastrami\cover\cover-pastrami-01.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/pastrami/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pastrami\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/pavarotti/cover/cover-pavarotti.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pavarotti\cover\cover-pavarotti.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/pavarotti/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pavarotti\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/pen-box-lucia/cover/cover-pen-box-lucia.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pen-box-lucia\cover\cover-pen-box-lucia.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/pen-box/cover/cover-pen-box.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pen-box\cover\cover-pen-box.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/pertci-2/cover/cover-pertci-2.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pertci-2\cover\cover-pertci-2.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/pertci/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pertci\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/peshi/cover/cover-peshi.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\peshi\cover\cover-peshi.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/peshi/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\peshi\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/pin/cover/cover-pin.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\pin\cover\cover-pin.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/reserved/cover/cover-reserved-01.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\reserved\cover\cover-reserved-01.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/rice/cover/cover-rice.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\rice\cover\cover-rice.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/rice/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\rice\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-01/cover/cover-salfetnitsa-se-1-01.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-01\cover\cover-salfetnitsa-se-1-01.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-02/cover/cover-salfetnitsa-se-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-02\cover\cover-salfetnitsa-se-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-03/cover/cover-salfetnitsa-se-03.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-03\cover\cover-salfetnitsa-se-03.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-04/cover/cover-salfetnitsa-04.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-04\cover\cover-salfetnitsa-04.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-iq-cafee/cover/cover-salfetnitsa-iq-cafee.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-iq-cafee\cover\cover-salfetnitsa-iq-cafee.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-iq-cafee/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-iq-cafee\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-los/cover/cover-salfetnitsa-los.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-los\cover\cover-salfetnitsa-los.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-los/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-los\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-lucia/cover/cover-salfetnitsa-lucia.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-lucia\cover\cover-salfetnitsa-lucia.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-lucia/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-lucia\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-saperavi/cover/cover-salfetnitsa-saperavi.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-saperavi\cover\cover-salfetnitsa-saperavi.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-saperavi/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-saperavi\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-italian/cover/cover-salfetnitsa-stakan-italian.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-italian\cover\cover-salfetnitsa-stakan-italian.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-italian/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-italian\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-remor/cover/cover-salfetnitsa-stakan-remor.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-remor\cover\cover-salfetnitsa-stakan-remor.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-remor/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-remor\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-steakhouse/cover/cover-salfetnitsa-stakan-steakhouse.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-steakhouse\cover\cover-salfetnitsa-stakan-steakhouse.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/salfetnitsa-stakan-steakhouse/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\salfetnitsa-stakan-steakhouse\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/shastie-menu/cover/cover-schastye.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\shastie-menu\cover\cover-schastye.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/shastie/cover/cover-shastie.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\shastie\cover\cover-shastie.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/shastie/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\shastie\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/smartwine/cover/cover-smartwine.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\smartwine\cover\cover-smartwine.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/smartwine/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\smartwine\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/sugar-mama/cover/cover-sugar-mama-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sugar-mama\cover\cover-sugar-mama-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/sugar-mama/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sugar-mama\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/sultan/cover/cover-sultan.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sultan\cover\cover-sultan.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/sultan/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sultan\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/sushi-dom/cover/cover-sushi-dom.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sushi-dom\cover\cover-sushi-dom.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/sushi-dom/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\sushi-dom\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/table-tent-01/cover/cover-table-tent-01.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-01\cover\cover-table-tent-01.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-02/cover/cover-table-tent-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-02\cover\cover-table-tent-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-03/cover/cover-table-tent-03.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-03\cover\cover-table-tent-03.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-04/cover/cover-table-tent-04.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-04\cover\cover-table-tent-04.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-05/cover/cover-table-tent-05.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-05\cover\cover-table-tent-05.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-06/cover/cover-table-tent-06.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-06\cover\cover-table-tent-06.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-07/cover/cover-table-tent-07.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-07\cover\cover-table-tent-07.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-08/cover/cover-table-tent-08.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-08\cover\cover-table-tent-08.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-09/cover/cover-table-tent-09.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-09\cover\cover-table-tent-09.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/table-tent-10/cover/cover-table-tent-10.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\table-tent-10\cover\cover-table-tent-10.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/travelers-salfetnitsa/cover/cover-travelers-salfetnitsa-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\travelers-salfetnitsa\cover\cover-travelers-salfetnitsa-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/travelers-stakan/cover/cover-travelers-stakan-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\travelers-stakan\cover\cover-travelers-stakan-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/travelers-stakan/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\travelers-stakan\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/wooden-menu-01/cover/cover-wooden-menu-01.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-01\cover\cover-wooden-menu-01.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-02/cover/cover-wooden-menu-02.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-02\cover\cover-wooden-menu-02.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-03/cover/cover-wooden-menu-03.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-03\cover\cover-wooden-menu-03.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-04/cover/cover-wooden-menu-04.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-04\cover\cover-wooden-menu-04.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-06/cover/cover-wooden-menu-06.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-06\cover\cover-wooden-menu-06.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-07/cover/cover-wooden-menu-07.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-07\cover\cover-wooden-menu-07.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-08/cover/cover-wooden-menu-08.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-08\cover\cover-wooden-menu-08.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-09/cover/cover-wooden-menu-09.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-09\cover\cover-wooden-menu-09.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-10/cover/cover-wooden-menu-10.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-10\cover\cover-wooden-menu-10.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-11/cover/cover-wooden-menu-11.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-11\cover\cover-wooden-menu-11.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/images/wooden-menu-11/logo/logotype.svg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-11\logo\logotype.svg
+Content Type: image/svg+xml
+
+Uri: http://vkusmenu.com/images/wooden-menu-12/cover/cover-wooden-menu-12.jpg
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\images\wooden-menu-12\cover\cover-wooden-menu-12.jpg
+Content Type: image/jpeg
+
+Uri: http://vkusmenu.com/send-feedback
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\send-feedback.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\index.htm
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-01
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-01.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-02
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-02.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-03
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-03.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-04
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-04.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-05
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-05.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-06
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-06.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-07
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-07.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-08
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-08.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-09
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-09.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/table-tents/table-tent-10
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\table-tents\table-tent-10.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\index.htm
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/amarena
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\amarena.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/amsterdam
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\amsterdam.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/apres-ski
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\apres-ski.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/bacardi
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\bacardi.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/bamboo
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\bamboo.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/bamboobar
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\bamboobar.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/buritto
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\buritto.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/chalet
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\chalet.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/dobrograd
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\dobrograd.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/eda-vino-i-tantsy-menu
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\eda-vino-i-tantsy-menu.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/eda-vino-i-tantsy-salfetnitsa
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\eda-vino-i-tantsy-salfetnitsa.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/eda-vino-i-tantsy-stakan
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\eda-vino-i-tantsy-stakan.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/expromt-coins
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\expromt-coins.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/formaggi
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\formaggi.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/galki
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\galki.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/granat
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\granat.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/hozain-taigi
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\hozain-taigi.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/iz-brasserie
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\iz-brasserie.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/kulinari-myshelovki
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\kulinari-myshelovki.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/limerik
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\limerik.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/mamas
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\mamas.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/mate
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\mate.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/mindal
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\mindal.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/nomerki-tunguska
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\nomerki-tunguska.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/ogon-i-led
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\ogon-i-led.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/olivje
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\olivje.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/olivo
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\olivo.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/ostrovok
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\ostrovok.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pastrami
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pastrami.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pavarotti
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pavarotti.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pen-box
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pen-box.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pen-box-lucia
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pen-box-lucia.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pertci-2
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pertci-2.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/peshi
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\peshi.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/pin
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\pin.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/reserved
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\reserved.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/rice
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\rice.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-01
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-01.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-02
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-02.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-03
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-03.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-04
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-04.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-iq-cafee
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-iq-cafee.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-los
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-los.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-lucia
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-lucia.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-saperavi
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-saperavi.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-stakan-italian
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-stakan-italian.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-stakan-remor
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-stakan-remor.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/salfetnitsa-stakan-steakhouse
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\salfetnitsa-stakan-steakhouse.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/shastie
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\shastie.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/shastie-menu
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\shastie-menu.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/smartwine
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\smartwine.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/sugar-mama
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\sugar-mama.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/sultan
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\sultan.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/sushi-dom
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\sushi-dom.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/travelers-salfetnitsa
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\travelers-salfetnitsa.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/travelers-stakan
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\travelers-stakan.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-01
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-01.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-02
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-02.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-03
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-03.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-04
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-04.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-06
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-06.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-07
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-07.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-08
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-08.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-09
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-09.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-10
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-10.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-11
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-11.html
+Content Type: text/html
+
+Uri: http://vkusmenu.com/works/wooden-menu-12
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\works\wooden-menu-12.html
+Content Type: text/html
+
+Uri: http://yastatic.net/es5-shims/0.0.2/es5-shims.min.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\es5-shims\0.0.2\es5-shims.min.js
+Content Type: application/x-javascript
+
+Uri: http://yastatic.net/share2/share.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\share2\share.js
+Content Type: application/javascript
+
+Uri: https://mc.yandex.ru/watch/42593774
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\watch\42593774
+Content Type: image/gif
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?hl=ru
+File Name: C:\Users\mikbrazh\Desktop\111\vkusmenu.com\recaptcha\api-1.js
+Content Type: text/javascript
+
