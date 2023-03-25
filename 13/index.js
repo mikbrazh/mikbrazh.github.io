@@ -72,8 +72,11 @@ const swiper = new Swiper('.swiper', {
   el: '.swiper-pagination',
   clickable: true,
   },
+
   a11y: {
-    slideLabelMessage: 'Фоновое изображение'
+    enabled: true,
+    paginationElement: 'button',
+    paginationBulletMessage: 'Перейти к слайду номер {{index}}',
   }
 })
 
