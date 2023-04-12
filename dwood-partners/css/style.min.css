@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Manrope-600";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Manrope/Manrope-SemiBold.eot");
+  src: url("../fonts/Manrope/Manrope-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-SemiBold.woff") format("woff"), font-url("../fonts/Manrope/Manrope-SemiBold.woff2") format("woff2"), url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.partners {
+  padding: 80px 40px 120px;
+  background-color: #4F8E00;
+}
+
+.partners__title {
+  margin-bottom: 30px;
+  font-family: "Manrope-600", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.partners-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.partners__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners__item img {
+  width: 80%;
+  opacity: 0.5;
+}
+
+@media (max-width: 63.99875em) {
+  .partners {
+    padding: 60px 40px 90px;
+  }
+  .partners-block {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .partners__title {
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+  .partners__item img {
+    width: 70%;
+    opacity: 0.5;
+  }
+}
