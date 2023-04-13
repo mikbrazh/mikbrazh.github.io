@@ -4,24 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Партнеры</title>
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
  
   <section class="partners">
     <h2 class="partners__title">ПАРТНЕРЫ</h2>
-    <div class="partners-block">
-      <div class="partners__item">
-        <img src="img/svg/bikos-logo.svg" alt="Логотип компании">
-      </div>
-      <div class="partners__item">
-        <img src="img/svg/trmd-logo.svg" alt="Логотип компании">
-      </div>
-      <div class="partners__item">
-        <img src="img/@2x/listelly-logo@2x.png" alt="Логотип компании">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="partners-block partners-block--red swiper-slide">
+          <div class="partners__item">
+            <img src="img/svg/bikos-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/svg/trmd-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/@2x/listelly-logo@2x.png" alt="Логотип компании">
+          </div>
+        </div>
+        <div class="partners-block partners-block--green swiper-slide">
+          <div class="partners__item">
+            <img src="img/svg/bikos-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/svg/trmd-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/@2x/listelly-logo@2x.png" alt="Логотип компании">
+          </div>
+        </div>
+        <div class="partners-block partners-block--blue swiper-slide">
+          <div class="partners__item">
+            <img src="img/svg/bikos-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/svg/trmd-logo.svg" alt="Логотип компании">
+          </div>
+          <div class="partners__item">
+            <img src="img/listelly-logo.png" alt="Логотип компании">
+          </div>
+        </div>
       </div>
     </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </section>
 
+  <script src="js/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
 </html>

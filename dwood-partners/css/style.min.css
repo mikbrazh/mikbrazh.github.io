@@ -5,26 +5,14 @@
   src: url("../fonts/Manrope/Manrope-SemiBold.eot");
   src: url("../fonts/Manrope/Manrope-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-SemiBold.woff") format("woff"), font-url("../fonts/Manrope/Manrope-SemiBold.woff2") format("woff2"), url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
 }
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-}
-
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
 
 .partners {
-  padding: 80px 40px 120px;
+  position: relative;
+  padding: 80px 60px 120px;
   background-color: #4F8E00;
 }
 
@@ -57,6 +45,38 @@ h1, h2, h3, h4, h5, h6 {
 .partners__item img {
   width: 80%;
   opacity: 0.5;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 26px;
+  height: 45px;
+  z-index: 999;
+  background-image: url("../img/svg/arrow-prev.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+      -ms-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+  width: 26px;
+  height: 45px;
+  z-index: 1;
+  background-image: url("../img/svg/arrow-prev.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 63.99875em) {
