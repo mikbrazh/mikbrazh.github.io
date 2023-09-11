@@ -1,0 +1,44 @@
+%svg-common {
+    background: url("svg/sprite.view.svg") no-repeat;
+}
+
+.svg-clock {
+    @extend %svg-common;
+    background-position: 100% 0;
+}
+
+.svg-clock-dims {
+    width: 28px;
+    height: 28px;
+}
+
+.svg-men {
+    @extend %svg-common;
+    background-position: 80% 88.88888888888889%;
+}
+
+.svg-men-dims {
+    width: 25px;
+    height: 24px;
+}
+
+.svg-stars {
+    @extend %svg-common;
+    background-position: 0 0;
+}
+
+.svg-stars-dims {
+    width: 32px;
+    height: 32px;
+}
+
+.svg-target {
+    @extend %svg-common;
+    background-position: 0 100%;
+}
+
+.svg-target-dims {
+    width: 28px;
+    height: 28px;
+}
+
