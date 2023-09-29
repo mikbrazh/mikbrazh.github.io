@@ -224,6 +224,11 @@ body a {
   display: none;
 }
 
+.is-static {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
 .input-default {
   width: 100%;
   min-height: 60px;
@@ -427,9 +432,9 @@ body a {
 .header__dropdown-button::after {
   content: "";
   position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 47%;
+  width: 12px;
+  height: 12px;
+  top: 50%;
   right: 10px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -510,10 +515,11 @@ body a {
   display: none;
 }
 
-.header__dropdown-flag-img {
+.header__dropdown-flag-icon {
   margin-left: 1px;
   width: 20px;
-  height: 14px;
+  height: auto;
+  pointer-events: none;
 }
 
 /* ======= Header dropdown END ======= */
@@ -4419,4 +4425,141 @@ body a {
 }
 /* ======= footer Media END ======= */
 /* ======= footer END ======= */
+/* ======= modal START ======= */
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.modal--open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.modal-order__bg {
+  position: absolute;
+  background-color: #271291;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.modal-order__layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding: 105px 260px 260px 260px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.modal-order__layout-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.modal-order__layout-image {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+      -ms-transform: translateX(-60%);
+          transform: translateX(-60%);
+  max-width: 330px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.modal-order__close-button {
+  position: absolute;
+  right: 0;
+  top: -36px;
+  width: 36px;
+  height: 36px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzQyN181NjQzKSI+CjxwYXRoIGQ9Ik0yOC41IDkuNjE1TDI2LjM4NSA3LjVMMTggMTUuODg1TDkuNjE1IDcuNUw3LjUgOS42MTVMMTUuODg1IDE4TDcuNSAyNi4zODVMOS42MTUgMjguNUwxOCAyMC4xMTVMMjYuMzg1IDI4LjVMMjguNSAyNi4zODVMMjAuMTE1IDE4TDI4LjUgOS42MTVaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzQyN181NjQzIj4KPHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.modal-order__title {
+  margin-bottom: 30px;
+  color: #271291;
+  text-align: center;
+  font-family: "InterTight-700", Arial, sans-serif;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+.modal-order__subtitle {
+  color: #000;
+  text-align: center;
+  font-family: "InterTight-400", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+/* ======= modal Media START ======= */
+@media (max-width: 1279.98px) {
+  .modal-order__content {
+    max-width: 290px;
+  }
+}
+@media (max-width: 959.98px) {
+  .modal-order__layout {
+    padding: 70px 35px 220px 35px;
+  }
+}
+@media (max-width: 479.98px) {
+  .modal-order__title {
+    font-size: 30px;
+  }
+  .modal-order__subtitle {
+    font-size: 18px;
+  }
+}
+/* ======= modal Media END ======= */
+/* ======= modal END ======= */
 /* ======= Кастомный CSS END ======= */
