@@ -1,0 +1,36 @@
+.svg-clock {
+    background: url("svg/sprite.view.svg") 100% 0 no-repeat;
+}
+
+.svg-clock-dims {
+    width: 28px;
+    height: 28px;
+}
+
+.svg-men {
+    background: url("svg/sprite.view.svg") 80% 88.88888888888889% no-repeat;
+}
+
+.svg-men-dims {
+    width: 25px;
+    height: 24px;
+}
+
+.svg-stars {
+    background: url("svg/sprite.view.svg") 0 0 no-repeat;
+}
+
+.svg-stars-dims {
+    width: 32px;
+    height: 32px;
+}
+
+.svg-target {
+    background: url("svg/sprite.view.svg") 0 100% no-repeat;
+}
+
+.svg-target-dims {
+    width: 28px;
+    height: 28px;
+}
+
