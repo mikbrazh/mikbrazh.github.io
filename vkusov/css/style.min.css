@@ -10,6 +10,7 @@
   --grey: #868686;
   --lightGrey: #EAE3D9;
   --greyBg: #f5f0ea;
+  --veryLightGrey: #f5f5f5;
   --temp: #C0C0C0;
 }
 
@@ -294,6 +295,7 @@ body a {
   text-transform: uppercase;
   border-radius: 7px;
   background-color: var(--blue);
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
@@ -1137,6 +1139,171 @@ body a {
 }
 /* ======= footer MEDIA END ======= */
 /* ======= footer END ======= */
+/* ======= please START ======= */
+.please {
+  background-color: var(--veryLightGrey);
+}
+
+.please__layout {
+  padding-top: 75px;
+  padding-bottom: 115px;
+}
+
+.please__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.please__couple-block {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 650px;
+      flex-basis: 650px;
+  width: 650px;
+  height: 383px;
+}
+.please__couple-block:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -26px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 608px;
+  height: 383px;
+  background-image: url(../img/svg/please-pattern.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.please__couple-image {
+  position: absolute;
+  top: -17px;
+  left: 11px;
+  width: 604px;
+  height: auto;
+}
+
+.please__text-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.please__dialog {
+  padding-top: 35px;
+  margin-bottom: 22px;
+  color: var(--black);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.68;
+}
+
+.please__button {
+  max-width: 240px;
+}
+
+/* ======= please MEDIA START ======= */
+@media (max-width: 1399.98px) {
+  .please__couple-block {
+    -ms-flex-preferred-size: 585px;
+        flex-basis: 585px;
+    width: 585px;
+  }
+  .please__couple-block:before {
+    left: -77px;
+  }
+  .please__couple-image {
+    left: -40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .please__layout {
+    padding-top: 82px;
+    padding-bottom: 66px;
+  }
+  .please__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .please__couple-block {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    width: 100%;
+  }
+  .please__couple-block {
+    margin-bottom: 40px;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    width: 100%;
+  }
+  .please__couple-block:before {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .please__couple-image {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 537px;
+  }
+  .please__dialog {
+    margin-bottom: 37px;
+  }
+}
+@media (max-width: 575.98px) {
+  .please__couple-block:before {
+    left: -160px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+@media (max-width: 460px) {
+  .please__couple-image {
+    top: -15px;
+    left: -55px;
+    width: 547px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+}
+/* ======= please MEDIA END ======= */
+/* ======= please END ======= */
+/* ======= news START ======= */
+/* ======= news END ======= */
 /* ======= canvi-navbar START ======= */
 .canvi-navbar {
   background-color: var(--blue);
