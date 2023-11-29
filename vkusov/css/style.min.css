@@ -313,6 +313,28 @@ body a {
   cursor: pointer;
 }
 
+.link-underlined {
+  position: relative;
+}
+.link-underlined:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.link-underlined:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (max-width: 575.98px) {
   .container {
     padding-right: calc(var(--bs-gutter-x) * 1);
