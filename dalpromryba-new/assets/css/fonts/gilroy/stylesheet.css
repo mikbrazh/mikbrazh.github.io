@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Gilroy';
+	src:url('gilroy-black.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-black.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-blackitalic.html') format('woff2'), /* Super Modern Browsers */
+		 url('gilroy-blackitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src:url('gilroy-bold.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-bold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-bolditalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-bolditalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-heavy.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-heavy.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-heavyitalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-heavyitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 900;
+	font-style: italic;		
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-medium.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-medium.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-mediumitalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-mediumitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-regular.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-regular.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-regularitalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-regularitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-semibold.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-semibold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-semibolditalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-semibolditalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-thin.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-thin.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-thinitalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-thinitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-ultralight.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-ultralight.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('gilroy-ultralightitalic.html') format('woff2'), /* Super Modern Browsers */
+		url('gilroy-ultralightitalic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+	font-weight: 300;
+	font-style: italic;
+}
+
