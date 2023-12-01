@@ -163,7 +163,7 @@ h2.display-1 {
   mix-blend-mode: overlay;
 }
 .color-dark {
-  color: #0f1835 !important;
+  color: #285484!important;
 }
 @media all and (max-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -362,8 +362,8 @@ h1 {
   fill: #285484 !important;
 }
 .bg-main-dark {
-  background-color: #0f1835 !important;
-  fill: #0f1835 !important;
+  background-color: #285484!important;
+  fill: #285484!important;
 }
 .bg-main-blue {
   background-color: #285484 !important;
@@ -406,7 +406,7 @@ h1 {
 }
 @media (max-width: 991.98px) {
   .offcanvas {
-    background-color: #0f1835 !important;
+    background-color: #285484!important;
     background-image: url("../img/bg-menu.jpg");
     background-size: cover;
   }
