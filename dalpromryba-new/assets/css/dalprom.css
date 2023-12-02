@@ -1,4 +1,4 @@
-/* ======= Шрифты START ======= */
+/* ======= Подключение шрифтов START ======= */
 @font-face {
   font-family: "RobotoCondensed-300";
   font-weight: 300;
@@ -29,7 +29,7 @@
   font-style: normal;
   src: url("../fonts/Roboto_Condensed/static/RobotoCondensed-Bold.woff") format("woff"), url("../fonts/Roboto_Condensed/static/RobotoCondensed-Bold.woff2") format("woff2");
 }
-/* ======= Шрифты END ======= */
+/* ======= Подключение шрифтов END ======= */
 
 body {
   font-family: 'RobotoCondensed-400';
@@ -784,16 +784,95 @@ footer a {
     --bs-btn-disabled-border-color: rgba(255, 255, 255, 0.5);
     --bs-gradient: none;
 }
+/* ======= Переопределение style.css END ======= */
 
+/* ======= Дополнительные стили START ======= */
 .elem-center-xxl {
   display: block;
     text-align: center;
 }
 
-@media (max-width: 960px) {
-  .elem-center {
+/* ======= circle-icon START ======= */
+
+/* Скидываем старые стили */
+.icon-fish {
+  background-color: transparent;
+}
+/* Скидываем старые стили */
+.icon-fish img {
+  width: 100% !important;
+  height: auto !important;
+}
+/* Скидываем старые стили */
+.bg-gradient-fish .icon-fish {
+  background-color: transparent;
+}
+
+.circle-icon {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-icon__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+  z-index: -1;
+}
+/* ======= circle-icon END ======= */
+
+.footer-logo-block {
+  text-align: center;
+}
+
+.bg-main-dark {
+  background-color: #172853 !important;
+  fill: #172853 !important;
+}
+
+@media (max-width: 992px) {
+  .elem-center-lg {
     display: block;
     text-align: center;
   }
+
+  .counter-wrapper p {
+    font-size: .7rem;
+  }
+
+  footer .row {
+    align-items: flex-start;
+  }
+  
+  footer .col {
+    align-items: flex-start;
+  }
+
+  .copyright {
+    margin-left: 0;
+  }
+
+  footer .col {
+    text-align: left;
+  }
+
+  /* .elem-fs-14 {
+    font-size: 14px;
+  } */
 }
-/* ======= Переопределение style.css END ======= */
+
+@media (max-width: 380px) {
+  .counter-wrapper p {
+    font-size: .5rem;
+  }
+}
+
+/* ======= Дополнительные стили END ======= */
