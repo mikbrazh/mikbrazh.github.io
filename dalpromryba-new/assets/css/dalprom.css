@@ -789,11 +789,10 @@ footer a {
 /* ======= Дополнительные стили START ======= */
 .elem-center-xxl {
   display: block;
-    text-align: center;
+  text-align: center;
 }
 
 /* ======= circle-icon START ======= */
-
 /* Скидываем старые стили */
 .icon-fish {
   background-color: transparent;
@@ -842,6 +841,10 @@ footer a {
   .elem-center-lg {
     display: block;
     text-align: center;
+  }
+
+  .elem-m-auto-lg {
+    margin: 0 auto;
   }
 
   .counter-wrapper p {
