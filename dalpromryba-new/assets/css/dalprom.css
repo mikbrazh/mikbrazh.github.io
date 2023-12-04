@@ -848,6 +848,10 @@ footer a {
   margin-bottom: 0;
 }
 
+.footer__nav-list-item-link {
+  text-transform: uppercase;
+}
+
 .footer-logo-block {
   text-align: center;
 }
