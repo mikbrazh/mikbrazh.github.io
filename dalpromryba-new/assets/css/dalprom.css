@@ -792,6 +792,20 @@ footer a {
   text-align: center;
 }
 
+h2.elem-color-white {
+  color: #FFFFFF !important;
+}
+
+.history__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.history__list-item {
+  margin-bottom: 20px;
+}
+
 /* ======= circle-icon START ======= */
 /* Скидываем старые стили */
 .icon-fish {
@@ -865,6 +879,24 @@ footer a {
   fill: #172853 !important;
 }
 
+@media (min-width: 992px) {
+  .fs-72 {
+    font-size: 2.5em !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fs-72 {
+    font-size: 3.4rem !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fs-72 {
+    font-size: 3.6rem !important;
+  }
+}
+
 @media (max-width: 992px) {
   .elem-center-lg {
     display: block;
@@ -897,6 +929,12 @@ footer a {
 
   .footer__nav {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  h2.h-size-default {
+    font-size: calc(1.485rem + 2.82vw) !important;
   }
 }
 
