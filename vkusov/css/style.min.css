@@ -1242,6 +1242,10 @@ body a {
 /* ======= video MEDIA END ======= */
 /* ======= video END ======= */
 /* ======= news START ======= */
+.news {
+  background-color: var(--white);
+}
+
 .news__layout {
   padding: 50px 20px 42px;
 }
