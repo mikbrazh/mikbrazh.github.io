@@ -64,11 +64,12 @@
     <header class="wrapper">
         <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
             <div class="container flex-lg-row flex-nowrap align-items-center">
-                <div class="navbar-brand">
-                    <a href="index.html">
-                        <img src="assets/img/logo.png" alt=""/>
-                    </a>
-                </div>
+              <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="assets/img/svg/logo-blue.svg" alt="Логотип компании"/>
+                    <!-- <img src="assets/img/logo.png" alt="Логотип компании"/> -->
+                </a>
+              </div>
                 <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start w-100">
                     <div class="offcanvas-header d-lg-none">
                         <a href="index.html"><img src="assets/img/logo-light.png" srcset="assets/img/logo-light@2x.png 2x" alt=""/></a>
@@ -78,7 +79,8 @@
                     <div class="offcanvas-body mx-auto d-flex flex-column h-100">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link hover" href="about.html" >О компании</a></li>
-                            <li class="nav-item"><a class="nav-link hover" href="index.html#product" onclick="scrollProduct()">Продукт</a></li>
+                            <li class="nav-item"><a class="nav-link hover" 
+                              href="https://security-au.mimecast.com/ttpwp/?tkn=3.FLouddascUVAdwCf8LPBkd42_O6OGIp_-RhPA5As6sXFU3ON0BJRZIPasSb8KBcAa4WzGcIoc_Net56civbWQOuaRubwDyqRDADbnFjegMdU2qaU_bRXfdHUkJiEurWejlteottz67Z2QfUl5XFA0ZSWzLLjgC_FfD1DrB6iolcOlKgSjPQOZEDezfrIJRK1.wQgW9kpnEpAzMz46PqHl7A#/enrollment?key=23c53c01-8d35-45f5-9db1-81d46721d6f5" target="_blank">Продукция</a></li>
                             <li class="nav-item"><a class="nav-link hover" href="services.html" >Экспертиза</a></li>
                             <li class="nav-item"><a class="nav-link hover" href="production.html" >Производство</a></li>
                             <li class="nav-item"><a class="nav-link hover" href="contacts.html" >Контакты</a></li>
@@ -181,7 +183,7 @@
   <!-- /column -->
   <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-7 text-lg-start color-white pr-5">
     <h2 class="display-3 mb-5 mx-lg-0">Анализ рынка</h2>
-    <p class="lead fs-lg mb-0">У нас есть возможность поделиться с нашими партнераманалитикой по динамике развития категории, формируемой ведущими аналитическими агентствами, тем самым повышая эффективность сотрудничества.</p>
+    <p class="lead fs-lg mb-0">У нас есть возможность поделиться с нашими партнерами аналитикой по динамике развития категории, формируемой ведущими аналитическими агентствами, тем самым повышая эффективность сотрудничества.</p>
   </div>
   <!-- /column -->
 </div>
@@ -236,20 +238,20 @@
         <div class="row justify-content-center gx-lg-8 gx-xl-12 gy-6 text-center">
             <div class="swiper-container sw-images dots-closer grid-view mb-12 mb-xl-0 p-0" data-margin="30" data-dots="true" data-nav="true" data-items-xl="5" data-items-md="3" data-items-xs="1" data-items-sm="2">
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
+                    <div class="swiper-wrapper swiper-wrapper-innovations">
+                        <div class="swiper-slide swiper-slide-innovations text-center">
                             <div class="img-holder"><img src="assets/img/production.jpg"></div>
                             <h4>Новые продукты</h4>
                             <p>Инновационные продуктовые решения, которые удовлетворяют потребности рынка — от идеи до реализации.</p>
                         </div>
                         <!--/column -->
-                        <div class="swiper-slide text-center">
+                        <div class="swiper-slide swiper-slide-innovations text-center">
                             <div class="img-holder"><img src="assets/img/design.jpg"></div>
                             <h4>Дизайн</h4>
                             <p>Современный дизайн, стимулирующий покупку. Разрабатывается на основании потребительского тестирования.</p>
                         </div>
                         <!--/column -->
-                        <div class="swiper-slide text-center">
+                        <div class="swiper-slide swiper-slide-innovations text-center">
                             <div class="img-holder"><img src="assets/img/moreproduct.jpg"></div>
                             <h4>Маркетинг</h4>
                             <p>Маркетинговые коммуникации Компании нацелены на рост категории рыбной консервации и увеличивают потребление полезных морепродуктов.</p>
@@ -278,12 +280,13 @@
 <footer class="bg-main-dark">
   <div class="container pt-14 pb-14">
       <div class="row text-left">
-          <div class="col footer-logo-block">
-            <a href="index.html" class="footer-logo-link">
-                <img src="assets/img/logo-white.png" class="footer-logo">
-            </a>
-            <p class="copyright">&copy; 2023 Дальпромрыба. Все права защищены.</p>
-          </div>
+        <div class="col footer-logo-block">
+          <a href="index.html" class="footer-logo-link">
+              <!-- <img src="assets/img/logo-white.png" alt="Логотип компании" class="footer-logo"> -->
+              <img src="assets/img/svg/logo-white.svg" alt="Логотип компании">
+          </a>
+          <p class="copyright">&copy; 2023 Дальпромрыба. Все права защищены.</p>
+        </div>
           <div class="col">
               <nav class="footer__nav">
                   <ul class="footer__nav-list">
@@ -291,7 +294,8 @@
                           <a class="footer__nav-list-item-link hover" href="about.html" >О компании</a>
                       </li>
                       <li class="footer__nav-list-item">
-                          <a class="footer__nav-list-item-link hover" href="index.html#product" onclick="scrollProduct()">Продукт</a>
+                          <a class="footer__nav-list-item-link hover" 
+                          href="https://security-au.mimecast.com/ttpwp/?tkn=3.FLouddascUVAdwCf8LPBkd42_O6OGIp_-RhPA5As6sXFU3ON0BJRZIPasSb8KBcAa4WzGcIoc_Net56civbWQOuaRubwDyqRDADbnFjegMdU2qaU_bRXfdHUkJiEurWejlteottz67Z2QfUl5XFA0ZSWzLLjgC_FfD1DrB6iolcOlKgSjPQOZEDezfrIJRK1.wQgW9kpnEpAzMz46PqHl7A#/enrollment?key=23c53c01-8d35-45f5-9db1-81d46721d6f5" target="_blank">Продукция</a>
                       </li>
                       <li class="footer__nav-list-item">
                           <a class="footer__nav-list-item-link hover" href="services.html" >Экспертиза</a>
@@ -313,9 +317,10 @@
               </div>
           </div>
           <div class="col col-lg-3 last">
-              <p class="connect"><a href="tel:+74959505354" style="color: rgba(255, 255, 255, 0.5);">+7 (495) 950 53 54</a></p>
-              <p class="connect">Вопросы по качеству продукции направляйте на электронную почту: <a href="mailto:infodpr@thaiunion.ru">infodpr@thaiunion.ru</a></p>
-              <span class="elem-m-auto-lg"><a class="btn btn-sm btn-outline-blue rounded-pill mb-4" data-bs-toggle="modal" data-bs-target="#modal-callback">НАПИШИТЕ НАМ</a></span>
+            <p class="connect elem-mb-0"><a href="tel:+74959505354" style="color: rgba(255, 255, 255, 0.5);">+7 (495) 950 53 54</a></p>
+            <p class="connect"><a href="mailto:infodpr@thaiunion.ru">infodpr@thaiunion.ru</a></p>
+            <p class="connect">Вопросы по качеству продукции направляйте на электронную почту: <a href="mailto:qc@dalpromryba.ru">qc@dalpromryba.ru</a></p>
+            <span class="elem-m-auto-lg"><a class="btn btn-sm btn-outline-blue rounded-pill mb-4" data-bs-toggle="modal" data-bs-target="#modal-callback">НАПИШИТЕ НАМ</a></span>
           </div>
       </div>
   </div>
