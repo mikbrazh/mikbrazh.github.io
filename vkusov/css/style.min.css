@@ -592,7 +592,7 @@ body a {
 }
 
 .love-in-fish__video-bg {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   -o-object-fit: cover;
@@ -743,6 +743,7 @@ body a {
 }
 
 .products__slide-button-block {
+  padding-bottom: 2px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
