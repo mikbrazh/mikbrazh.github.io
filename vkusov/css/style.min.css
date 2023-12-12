@@ -489,6 +489,10 @@ body a {
   height: auto;
 }
 
+.promo__quote {
+  position: relative;
+}
+
 .promo__quote-text {
   margin-bottom: 33px;
   color: var(--brown);
@@ -520,6 +524,84 @@ body a {
           transform: rotate(-8deg) translateY(-10px);
 }
 
+/* ======= signature animation START ======= */
+#signature {
+  width: 160px;
+  height: auto;
+}
+
+#signature-path-1 {
+  fill: none;
+  stroke: #8B734B;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-dasharray: 235.5576477051;
+  stroke-dashoffset: 235.5576477051;
+  -webkit-animation-name: sign-signature-path-1;
+          animation-name: sign-signature-path-1;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-play-state: play;
+          animation-play-state: play;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#signature-path-2 {
+  fill: none;
+  stroke: #8B734B;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-dasharray: 460.016418457;
+  stroke-dashoffset: 460.016418457;
+  -webkit-animation-name: sign-signature-path-2;
+          animation-name: sign-signature-path-2;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-play-state: play;
+          animation-play-state: play;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes sign-signature-path-1 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sign-signature-path-1 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes sign-signature-path-2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes sign-signature-path-2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/* ======= signature animation END ======= */
 /* ======= promo MEDIA START ======= */
 @media (max-width: 1399.98px) {
   .promo__quote-author {
@@ -621,6 +703,15 @@ body a {
       -ms-flex-align: center;
           align-items: center;
   height: 512px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+
+.love-in-fish__slogan--visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 .love-in-fish__slogan-top {
