@@ -11,6 +11,9 @@
   --lightGrey: #EAE3D9;
   --greyBg: #f5f0ea;
   --veryLightGrey: #f5f5f5;
+  --borderGrey: #D9D9D9;
+  --footnoteGrey: #929292;
+  --recommendationsGrey: #565656;
   --temp: #C0C0C0;
 }
 
@@ -335,6 +338,53 @@ body a {
   opacity: 1;
 }
 
+/* ======= breadcrumbs START ======= */
+.breadcrumbs__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 12px;
+}
+
+.breadcrumbs__list-item {
+  position: relative;
+  display: inline-block;
+}
+.breadcrumbs__list-item:not(:last-child):after {
+  content: "-";
+  position: absolute;
+  top: 1px;
+  right: -8px;
+  width: auto;
+  height: auto;
+  color: var(--grey);
+}
+
+.breadcrumbs__list-item-link {
+  position: relative;
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--grey);
+}
+.breadcrumbs__list-item-link--underline:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  pointer-events: none;
+}
+
+/* ======= breadcrumbs END ======= */
 .elem-transform-none {
   -webkit-transform: none !important;
       -ms-transform: none !important;
@@ -776,11 +826,11 @@ body a {
   text-transform: uppercase;
 }
 
-.products__slide {
+.products__item {
   width: 287px;
 }
 
-.products__slide-image-block {
+.products__item-image-block {
   margin: 0 auto;
   margin-bottom: 9px;
   width: 230px;
@@ -796,13 +846,13 @@ body a {
           align-items: center;
 }
 
-.products__slide-image {
+.products__item-image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.products__slide-content-block {
+.products__item-content-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,14 +863,14 @@ body a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 190px;
+  height: 215px;
 }
 
-.products__slide-text-block {
+.products__item-text-block {
   margin-bottom: 16px;
 }
 
-.products__slide-title {
+.products__item-title {
   margin: 0 auto 8px;
   width: 210px;
   color: var(--lightBrown);
@@ -831,7 +881,7 @@ body a {
   text-transform: uppercase;
 }
 
-.products__slide-subtitle {
+.products__item-subtitle {
   margin: 0 auto;
   width: 287px;
   color: var(--grey);
@@ -841,7 +891,7 @@ body a {
   line-height: 1.2;
 }
 
-.products__slide-button-block {
+.products__item-button-block {
   padding-bottom: 2px;
   width: 100%;
   display: -webkit-box;
@@ -930,6 +980,7 @@ body a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .love-we-do__bg {
@@ -1517,6 +1568,361 @@ body a {
 }
 /* ======= news MEDIA END ======= */
 /* ======= news END ======= */
+/* ======= products-catalog START ======= */
+.products-catalog__layout {
+  padding: 44px 0 62px;
+}
+
+.products-catalog__title {
+  color: var(--brown);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.products-catalog__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px 0;
+  padding-top: 43px;
+}
+.products-catalog__catalog .products__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333333%;
+          flex: 0 1 33.333333%;
+}
+
+/* ======= products-catalog MEDIA START ======= */
+@media (max-width: 767.98px) {
+  .products-catalog__layout {
+    padding: 39px 0 64px;
+  }
+  .products-catalog__title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .products-catalog__catalog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 23px;
+  }
+  .products__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+/* ======= products-catalog MEDIA END ======= */
+/* ======= products-catalog END ======= */
+/* ======= love-in-fish-about START ======= */
+.love-in-fish-about {
+  position: relative;
+  height: 512px;
+}
+.love-in-fish-about:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 80, 139, 0.2)), to(rgba(26, 80, 139, 0.2)));
+  background-image: linear-gradient(rgba(26, 80, 139, 0.2), rgba(26, 80, 139, 0.2));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.love-in-fish-about__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.love-in-fish-about__pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 240px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.love-in-fish-about__layout {
+  position: relative;
+  z-index: 1;
+}
+
+.love-in-fish-about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 512px;
+}
+
+.love-in-fish-about__slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+/* ======= love-in-fish-about MEDIA START ======= */
+@media (max-width: 1399.98px) {
+  .love-in-fish-about__pattern {
+    width: 218px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .love-in-fish-about__pattern {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .love-in-fish-about__text {
+    font-size: 45px;
+  }
+}
+/* ======= love-in-fish-about MEDIA END ======= */
+/* ======= love-in-fish-about END ======= */
+/* ======= couple START ======= */
+.couple {
+  position: relative;
+  min-height: 702px;
+}
+.couple:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 80, 139, 0.2)), to(rgba(26, 80, 139, 0.2)));
+  background-image: linear-gradient(rgba(26, 80, 139, 0.2), rgba(26, 80, 139, 0.2));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.couple__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ======= couple MEDIA START ======= */
+@media (max-width: 575.98px) {
+  .couple__image {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/* ======= couple MEDIA END ======= */
+/* ======= couple END ======= */
+/* ======= recipes START ======= */
+.recipes__layout {
+  padding: 42px 0 64px;
+}
+
+.recipes__title {
+  margin-bottom: 32px;
+  color: var(--brown);
+  text-align: center;
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.recipes__tabs {
+  margin-bottom: 42px;
+  padding: 0 42px;
+}
+
+.recipes__tabs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 8px;
+}
+
+.recipes__tabs-list-item {
+  padding: 12px 28px;
+  border-radius: 3px;
+  border: 1px solid var(--lightBrown);
+  background-color: var(--white);
+  line-height: 0;
+}
+
+.recipes__tabs-list-item--active {
+  background-color: var(--lightBrown);
+}
+.recipes__tabs-list-item--active a {
+  color: var(--white);
+}
+
+.recipes__tabs-list-item-link {
+  color: var(--brown);
+  font-family: "Montserrat-600", Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.recipes__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 64px 0;
+}
+
+.recipes-page .recipe-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333333%;
+          flex: 0 1 33.333333%;
+}
+
+/* ======= recipes MEDIA START ======= */
+@media (max-width: 1399.98px) {
+  .recipes__tabs {
+    padding: 0;
+  }
+  .recipes__tabs-list {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .recipes__tabs-list-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 280px;
+            flex: 0 1 280px;
+    text-align: center;
+  }
+  .recipes__catalog {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .recipes-page .recipe-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+  }
+}
+@media (max-width: 767.98px) {
+  .recipes__layout {
+    padding: 32px 0 64px;
+  }
+  .recipes__title {
+    margin-bottom: 24px;
+    font-size: 30px;
+  }
+  .recipes__tabs {
+    padding: 0 80px;
+  }
+  .recipes__tabs-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .recipes__tabs-list-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+  }
+  .recipes__catalog {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .recipes__tabs {
+    padding: 0;
+  }
+  .recipes__tabs-list {
+    margin: 0 auto;
+    width: 280px;
+  }
+}
+/* ======= recipes MEDIA END ======= */
+/* ======= recipes END ======= */
 /* ======= footer START ======= */
 .footer {
   background-color: var(--blue);
@@ -1856,4 +2262,472 @@ body a {
 }
 
 /* ======= canvi-navbar END ======= */
+/* ======= modals START ======= */
+/* ======= product-card START ======= */
+.graph-modal {
+  background-color: rgba(0, 0, 0, 0.83);
+}
+
+.graph-modal__container {
+  padding: 106px 0 59px;
+  max-width: 812px;
+}
+
+.graph-modal__close {
+  right: 24px;
+  top: 24px;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNyAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjA1NjM1IDguMjA3MTFMMC43MDcxMDcgMTUuNTU2M0wwIDE0Ljg0OTJMNy4zNDkyNCA3LjVMMC41NTYzNDkgMC43MDcxMDhMMS4yNjM0NiAwTDguMDU2MzUgNi43OTI4OUwxNC44NDkyIDBMMTUuNTU2MyAwLjcwNzEwOEw4Ljc2MzQ2IDcuNUwxNi4xMTI3IDE0Ljg0OTJMMTUuNDA1NiAxNS41NTYzTDguMDU2MzUgOC4yMDcxMVoiIGZpbGw9IiNEOUQ5RDkiLz4KPC9zdmc+Cg==");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-card__product-block {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-card__image-block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  max-width: 288px;
+  max-height: 288px;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 100%;
+  margin-top: -18px;
+}
+
+.product-card__description-block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 517px;
+          flex: 0 1 517px;
+}
+
+.product-card__description {
+  padding-right: 68px;
+}
+
+.product-card__title {
+  margin-bottom: 14px;
+  color: var(--brown);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 31px;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.product-card__text {
+  margin-bottom: 24px;
+  color: var(--black);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.product-card__calories {
+  position: relative;
+  padding: 28px 0 34px;
+  margin-bottom: 32px;
+}
+.product-card__calories::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 469px;
+  height: 1px;
+  background-color: var(--borderGrey);
+}
+.product-card__calories::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 469px;
+  height: 1px;
+  background-color: var(--borderGrey);
+}
+
+.product-card__calories-listing {
+  margin-bottom: 21px;
+  color: var(--darkBlue);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.product-card__calories-list-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 0 76px;
+}
+
+.product-card__calories-list {
+  position: relative;
+}
+.product-card__calories-list:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -38px;
+  width: 1px;
+  height: 100%;
+  background-color: var(--borderGrey);
+}
+
+.product-card__calories-name {
+  margin-bottom: 10px;
+  color: var(--darkBlue);
+  font-family: "Montserrat-700", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.product-card__calories-value {
+  color: var(--darkBlue);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.product-card__calories-total {
+  color: var(--darkBlue);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.product-card__structure {
+  margin-bottom: 24px;
+}
+
+.product-card__structure-list-item {
+  color: var(--brown);
+  font-family: "RobotoCondensed-400", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.product-card__buy-button {
+  margin-bottom: 26px;
+}
+
+.product-card__footnote {
+  padding-right: 100px;
+  color: var(--footnoteGrey);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.product-card__recommendations-block {
+  position: relative;
+  padding: 0 45px;
+}
+
+.product-card-recommendations__swiper-wrapper {
+  padding: 0 10px;
+}
+
+.product-card-recommendations__swiper {
+  overflow: hidden;
+}
+
+.product-card__recommendations-title {
+  margin-bottom: 30px;
+  color: var(--brown);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.65;
+  text-transform: uppercase;
+}
+
+/* ======= recipe-item START ======= */
+.recipe-item__content-block {
+  padding-bottom: 5px;
+}
+
+.recipe-item__image-block {
+  margin: 0 auto 21px;
+  width: 298px;
+  height: 216px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recipe-item__image {
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-item__text-block {
+  margin-bottom: 23px;
+}
+
+.recipe-item__title {
+  margin-bottom: 13px;
+  color: var(--brown);
+  text-align: center;
+  font-family: "RobotoCondensed-400", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.recipe-item__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 46px;
+}
+
+.recipe-item__list-item {
+  color: var(--recommendationsGrey);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.recipe-item__list-item--time {
+  position: relative;
+}
+.recipe-item__list-item--time::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -31px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDFDOS44MjQ0MSAxIDcuNjk3NjcgMS42NDUxNCA1Ljg4ODczIDIuODUzODNDNC4wNzk3OSA0LjA2MjUzIDIuNjY5ODkgNS43ODA0OSAxLjgzNzMzIDcuNzkwNDhDMS4wMDQ3NyA5LjgwMDQ3IDAuNzg2OTI5IDEyLjAxMjIgMS4yMTEzNyAxNC4xNDZDMS42MzU4IDE2LjI3OTggMi42ODM0NSAxOC4yMzk4IDQuMjIxODMgMTkuNzc4MkM1Ljc2MDIxIDIxLjMxNjYgNy43MjAyMiAyMi4zNjQyIDkuODU0MDEgMjIuNzg4NkMxMS45ODc4IDIzLjIxMzEgMTQuMTk5NSAyMi45OTUyIDE2LjIwOTUgMjIuMTYyN0MxOC4yMTk1IDIxLjMzMDEgMTkuOTM3NSAxOS45MjAyIDIxLjE0NjIgMTguMTExM0MyMi4zNTQ5IDE2LjMwMjMgMjMgMTQuMTc1NiAyMyAxMkMyMyA5LjA4MjYyIDIxLjg0MTEgNi4yODQ3MyAxOS43NzgyIDQuMjIxODNDMTcuNzE1MyAyLjE1ODkzIDE0LjkxNzQgMSAxMiAxWk0xNS43MDcgMTUuNzA3QzE1LjUxOTUgMTUuODk0NSAxNS4yNjUyIDE1Ljk5OTggMTUgMTUuOTk5OEMxNC43MzQ4IDE1Ljk5OTggMTQuNDgwNSAxNS44OTQ1IDE0LjI5MyAxNS43MDdMMTEuMjkzIDEyLjcwN0MxMS4xMDU1IDEyLjUxOTUgMTEuMDAwMSAxMi4yNjUyIDExIDEyVjZDMTEgNS43MzQ3OCAxMS4xMDU0IDUuNDgwNDMgMTEuMjkyOSA1LjI5Mjg5QzExLjQ4MDQgNS4xMDUzNiAxMS43MzQ4IDUgMTIgNUMxMi4yNjUyIDUgMTIuNTE5NiA1LjEwNTM2IDEyLjcwNzEgNS4yOTI4OUMxMi44OTQ2IDUuNDgwNDMgMTMgNS43MzQ3OCAxMyA2VjExLjU4NkwxNS43MDcgMTQuMjkzQzE1Ljg5NDUgMTQuNDgwNSAxNS45OTk4IDE0LjczNDggMTUuOTk5OCAxNUMxNS45OTk4IDE1LjI2NTIgMTUuODk0NSAxNS41MTk1IDE1LjcwNyAxNS43MDdaIiBmaWxsPSIjMjg1NDg0Ii8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipe-item__list-item--portion {
+  position: relative;
+}
+.recipe-item__list-item--portion::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -23px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 16px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMDY2NTkgMC42MjYyMjFDNS45MTc4NiAwLjYyNjIyMSA1Ljc3NTIyIDAuNjg4NDU0IDUuNjcwMDUgMC43OTkyMzFDNS41NjQ4OCAwLjkxMDAwNyA1LjUwNTggMS4wNjAyNSA1LjUwNTggMS4yMTY5MVY1LjM5NDUzSDEuMTIxNTlWMS4yMTY5MUMxLjEyMTU5IDEuMDYwMjUgMS4wNjI1MSAwLjkxMDAwNyAwLjk1NzMzNiAwLjc5OTIzMUMwLjg1MjE2NyAwLjY4ODQ1NCAwLjcwOTUyNyAwLjYyNjIyMSAwLjU2MDc5NSAwLjYyNjIyMUMwLjQxMjA2NCAwLjYyNjIyMSAwLjI2OTQyNCAwLjY4ODQ1NCAwLjE2NDI1NCAwLjc5OTIzMUMwLjA1OTA4NTMgMC45MTAwMDcgMS45MjY0M2UtMDYgMS4wNjAyNSAxLjkyNjQzZS0wNiAxLjIxNjkxVjYuNTQ0M0MtMC4wMDA3MDc4NCA3LjIyODU3IDAuMTk0NzI1IDcuODk3MTIgMC41NjA3MjIgOC40NjI0NkMwLjgxMDgwMiA4Ljg1NTU3IDEuMTM0MDQgOS4xOTExMyAxLjUxMDg1IDkuNDQ4OEMxLjg4NzY2IDkuNzA2NDYgMi4zMTAyMSA5Ljg4MDg5IDIuNzUyOSA5Ljk2MTVWMTIuNjU2NUMyLjI3MzcyIDEyLjc1OTQgMS44Mjc2OSAxMi45OTAzIDEuNDU3NiAxMy4zMjdDMS4zOTYzOCAxMy4zODI0IDEuMzQ3MjUgMTMuNDUxMiAxLjMxMzU3IDEzLjUyODVDMS4yNzk4OSAxMy42MDU4IDEuMjYyNDUgMTMuNjg5OCAxLjI2MjQ0IDEzLjc3NDlWMjEuODM1OEMxLjI2MiAyMi4xMTk4IDEuMzE0NzIgMjIuNDAxMiAxLjQxNzYxIDIyLjY2MzdDMS41MjA1IDIyLjkyNjMgMS42NzE1MiAyMy4xNjQ5IDEuODYyMDQgMjMuMzY1OUMyLjA1MjU2IDIzLjU2NjkgMi4yNzg4NCAyMy43MjY0IDIuNTI3OTMgMjMuODM1MkMyLjc3NzAyIDIzLjk0NCAzLjA0NDAzIDI0IDMuMzEzNjkgMjRDMy41ODMzNSAyNCAzLjg1MDM3IDIzLjk0NCA0LjA5OTQ2IDIzLjgzNTJDNC4zNDg1NSAyMy43MjY0IDQuNTc0ODMgMjMuNTY2OSA0Ljc2NTM1IDIzLjM2NTlDNC45NTU4NyAyMy4xNjQ5IDUuMTA2ODkgMjIuOTI2MyA1LjIwOTc4IDIyLjY2MzdDNS4zMTI2NiAyMi40MDEyIDUuMzY1MzkgMjIuMTE5OCA1LjM2NDk0IDIxLjgzNThWMTMuNzc0OEM1LjM2NDk0IDEzLjY4OTggNS4zNDc1IDEzLjYwNTcgNS4zMTM4MiAxMy41Mjg0QzUuMjgwMTQgMTMuNDUxMSA1LjIzMTAxIDEzLjM4MjQgNS4xNjk3OSAxMy4zMjdDNC43OTk3IDEyLjk5MDIgNC4zNTM2NyAxMi43NTk0IDMuODc0NDkgMTIuNjU2NVY5Ljk2MTQ3QzQuMzE3MTggOS44ODA4NiA0LjczOTczIDkuNzA2NDQgNS4xMTY1NCA5LjQ0ODc3QzUuNDkzMzUgOS4xOTExIDUuODE2NTkgOC44NTU1NCA2LjA2NjY2IDguNDYyNDNDNi40MzI2NiA3Ljg5NzA5IDYuNjI4MSA3LjIyODU0IDYuNjI3MzggNi41NDQyN1YxLjIxNjkxQzYuNjI3MzggMS4xMzkzNCA2LjYxMjg4IDEuMDYyNTMgNi41ODQ3IDAuOTkwODY1QzYuNTU2NTEgMC45MTkxOTkgNi41MTUyMSAwLjg1NDA4MSA2LjQ2MzEzIDAuNzk5MjMxQzYuNDExMDYgMC43NDQzOCA2LjM0OTI0IDAuNzAwODY5IDYuMjgxMiAwLjY3MTE4NEM2LjIxMzE2IDAuNjQxNDk5IDYuMTQwMjMgMC42MjYyMjEgNi4wNjY1OSAwLjYyNjIyMVoiIGZpbGw9IiMyODU0ODQiLz4KPHBhdGggZD0iTTMuMzEzNzIgNS4wMjkxMkMzLjQ2MjQ1IDUuMDI5MTIgMy42MDUwOSA0Ljk2Njg5IDMuNzEwMjYgNC44NTYxMkMzLjgxNTQzIDQuNzQ1MzQgMy44NzQ1MiA0LjU5NTA5IDMuODc0NTIgNC40Mzg0M1YxLjIxNjkxQzMuODc0NTIgMS4wNjAyNSAzLjgxNTQzIDAuOTEwMDA3IDMuNzEwMjYgMC43OTkyMzFDMy42MDUwOSAwLjY4ODQ1NCAzLjQ2MjQ1IDAuNjI2MjIxIDMuMzEzNzIgMC42MjYyMjFDMy4xNjQ5OSAwLjYyNjIyMSAzLjAyMjM1IDAuNjg4NDU0IDIuOTE3MTggMC43OTkyMzFDMi44MTIwMSAwLjkxMDAwNyAyLjc1MjkzIDEuMDYwMjUgMi43NTI5MyAxLjIxNjkxVjQuNDM4NDZDMi43NTI5NCA0LjU5NTEyIDIuODEyMDIgNC43NDUzNiAyLjkxNzE5IDQuODU2MTNDMy4wMjIzNiA0Ljk2NjkgMy4xNjUgNS4wMjkxMiAzLjMxMzcyIDUuMDI5MTJaIiBmaWxsPSIjMjg1NDg0Ii8+CjxwYXRoIGQ9Ik0xNS45OTk1IDQuOTgxMDJDMTUuOTk5NSAyLjIzNDQ3IDE0LjIzMzMgMCAxMi4wNjIzIDBDOS44OTEyOCAwIDguMTI1IDIuMjM0NDcgOC4xMjUgNC45ODEwMkM4LjEyNSA3LjQ4NjYyIDkuNTk1MjQgOS41NjUxMiAxMS41MDE1IDkuOTEwNjRWMTIuNjU2NUMxMS4wMjIzIDEyLjc1OTQgMTAuNTc2MyAxMi45OTAzIDEwLjIwNjIgMTMuMzI3QzEwLjE0NSAxMy4zODI0IDEwLjA5NTggMTMuNDUxMSAxMC4wNjIxIDEzLjUyODRDMTAuMDI4NSAxMy42MDU3IDEwLjAxMSAxMy42ODk4IDEwLjAxMSAxMy43NzQ5VjIxLjgzNThDMTAuMDEwNiAyMi4xMTk4IDEwLjA2MzMgMjIuNDAxMiAxMC4xNjYyIDIyLjY2MzdDMTAuMjY5MSAyMi45MjYzIDEwLjQyMDEgMjMuMTY0OSAxMC42MTA2IDIzLjM2NTlDMTAuODAxMSAyMy41NjY5IDExLjAyNzQgMjMuNzI2NCAxMS4yNzY1IDIzLjgzNTJDMTEuNTI1NiAyMy45NDQgMTEuNzkyNiAyNCAxMi4wNjIzIDI0QzEyLjMzMTkgMjQgMTIuNTk4OSAyMy45NDQgMTIuODQ4IDIzLjgzNTJDMTMuMDk3MSAyMy43MjY0IDEzLjMyMzQgMjMuNTY2OSAxMy41MTM5IDIzLjM2NTlDMTMuNzA0NCAyMy4xNjQ5IDEzLjg1NTUgMjIuOTI2MyAxMy45NTgzIDIyLjY2MzdDMTQuMDYxMiAyMi40MDEyIDE0LjExNCAyMi4xMTk4IDE0LjExMzUgMjEuODM1OFYxMy43NzQ5QzE0LjExMzUgMTMuNjg5OCAxNC4wOTYxIDEzLjYwNTcgMTQuMDYyNCAxMy41Mjg0QzE0LjAyODcgMTMuNDUxMSAxMy45Nzk2IDEzLjM4MjQgMTMuOTE4MyAxMy4zMjdDMTMuNTQ4MyAxMi45OTAyIDEzLjEwMjMgMTIuNzU5NCAxMi42MjMxIDEyLjY1NjVWOS45MTA2NEMxNC41MjkzIDkuNTY1MTIgMTUuOTk5NSA3LjQ4NjYyIDE1Ljk5OTUgNC45ODEwMlpNMTIuMDA2MiA4Ljg2OTIzQzExLjg3OTggOC44NjkyMyAxMS43NTg1IDguODE2MzMgMTEuNjY5MSA4LjcyMjE3QzExLjU3OTcgOC42MjgwMSAxMS41Mjk1IDguNTAwMzEgMTEuNTI5NSA4LjM2NzE0QzExLjUyOTUgOC4yMzM5OCAxMS41Nzk3IDguMTA2MjcgMTEuNjY5MSA4LjAxMjExQzExLjc1ODUgNy45MTc5NSAxMS44Nzk4IDcuODY1MDYgMTIuMDA2MiA3Ljg2NTA2QzEzLjE0MTMgNy44NjUwNiAxNC4wNjQ4IDYuNTE4MjggMTQuMDY0OCA0Ljg2Mjg4QzE0LjA2NDggNC43Mjk3MiAxNC4xMTUgNC42MDIwMSAxNC4yMDQ0IDQuNTA3ODVDMTQuMjkzOCA0LjQxMzY5IDE0LjQxNSA0LjM2MDc5IDE0LjU0MTQgNC4zNjA3OUMxNC42Njc4IDQuMzYwNzkgMTQuNzg5MSA0LjQxMzY5IDE0Ljg3ODUgNC41MDc4NUMxNC45Njc5IDQuNjAyMDEgMTUuMDE4MSA0LjcyOTcyIDE1LjAxODEgNC44NjI4OEMxNS4wMTgxIDcuMDcxOTggMTMuNjY2OSA4Ljg2OTIzIDEyLjAwNjIgOC44NjkyM1oiIGZpbGw9IiMyODU0ODQiLz4KPC9zdmc+Cg==");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipe-item__button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ======= recipe-item END ======= */
+.product-card-recommendations__swiper {
+  position: relative;
+}
+
+.product-card-recommendations__swiper-button-prev {
+  position: absolute;
+  top: 160px;
+  left: 35px;
+  width: 18px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxOCAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4IDEuOTRMMTYuMDU5NCAwTDAgMTZMMTYuMDU5NCAzMkwxOCAzMC4wN0wzLjg5MDYyIDE2TDE4IDEuOTRaIiBmaWxsPSIjOEI3MzRCIi8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.product-card-recommendations__swiper-button-next {
+  position: absolute;
+  top: 160px;
+  right: 35px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 18px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxOCAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4IDEuOTRMMTYuMDU5NCAwTDAgMTZMMTYuMDU5NCAzMkwxOCAzMC4wN0wzLjg5MDYyIDE2TDE4IDEuOTRaIiBmaWxsPSIjOEI3MzRCIi8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* ======= product-card Media START ======= */
+@media (max-width: 991.98px) {
+  .graph-modal__container {
+    padding: 125px 20px 48px;
+  }
+  .product-card__image-block {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .product-card__product-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 52px;
+    margin-bottom: 41px;
+  }
+  .product-card__image-block {
+    margin: 0 auto;
+  }
+  .product-card__title {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
+  .product-card__description {
+    padding: 0;
+  }
+  .product-card__footnote {
+    padding: 0;
+  }
+  .product-card__calories::before,
+  .product-card__calories::after {
+    width: 100%;
+  }
+  .product-card__calories-listing {
+    margin-bottom: 27px;
+    text-align: center;
+  }
+  .product-card__calories-list-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 2px;
+  }
+  .product-card__calories-total {
+    margin: 0 auto;
+    max-width: 220px;
+    text-align: center;
+  }
+  .product-card__calories-list {
+    margin-bottom: 26px;
+  }
+  .product-card__calories-list:last-child {
+    margin-bottom: 0;
+  }
+  .product-card__calories-list:not(:last-child)::after {
+    top: auto;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 230px;
+    height: 1px;
+  }
+  .product-card__calories-total {
+    line-height: 1.25;
+  }
+  .product-card__buy-button {
+    margin-bottom: 28px;
+  }
+  .product-card__footnote--standart {
+    margin-bottom: 12px;
+  }
+  .product-card-recommendations__swiper-wrapper {
+    padding: 0;
+  }
+  .product-card__recommendations-block {
+    padding: 0;
+  }
+  .product-card__recommendations-title {
+    margin: 0 auto 24px;
+    max-width: 320px;
+    text-align: center;
+    line-height: 1.25;
+  }
+  .product-card-recommendations__swiper-button-prev {
+    top: 210px;
+  }
+  .product-card-recommendations__swiper-button-next {
+    top: 210px;
+  }
+  .graph-modal__container {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  .graph-modal:before {
+    display: block;
+    height: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .product-card-recommendations__swiper-button-prev {
+    left: 0;
+  }
+  .product-card-recommendations__swiper-button-next {
+    right: 0;
+  }
+}
+/* ======= product-card Media END ======= */
+/* ======= product-card END ======= */
+/* ======= modals END ======= */
 /* ======= Кастомный CSS END ======= */
