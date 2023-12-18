@@ -1814,11 +1814,8 @@ body a {
 }
 
 .recipes__tabs-list-item {
-  padding: 10px 28px;
-  border-radius: 3px;
-  border: 1px solid var(--lightBrown);
-  background-color: var(--white);
   line-height: 0;
+  overflow: hidden;
 }
 
 .recipes__tabs-list-item--1 {
@@ -1851,19 +1848,21 @@ body a {
           order: 5;
 }
 
-.recipes__tabs-list-item--active {
-  background-color: var(--lightBrown);
-}
-.recipes__tabs-list-item--active a {
-  color: var(--white);
-}
-
 .recipes__tabs-list-item-link {
+  display: block;
+  padding: 10px 28px;
   color: var(--brown);
   font-family: "Montserrat-600", Arial, sans-serif;
   font-size: 10px;
   line-height: 1;
   text-transform: uppercase;
+  border-radius: 3px;
+  border: 1px solid var(--lightBrown);
+  background-color: var(--white);
+}
+.recipes__tabs-list-item-link:focus {
+  color: var(--white);
+  background-color: var(--lightBrown);
 }
 
 .recipes__catalog {
