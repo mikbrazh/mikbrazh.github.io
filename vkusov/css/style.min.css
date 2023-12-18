@@ -1961,6 +1961,219 @@ body a {
 }
 /* ======= recipes MEDIA END ======= */
 /* ======= recipes END ======= */
+/* ======= recipe START ======= */
+.recipe__layout {
+  padding: 42px 64px;
+}
+
+.recipe__title {
+  color: var(--brown);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.recipe__cook-time-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 46px;
+  padding-left: 31px;
+  padding-top: 30px;
+  margin-bottom: 29px;
+}
+
+.recipe__cook-time-list-item {
+  position: relative;
+  color: var(--recommendationsGrey);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.recipe__cook-time-list-item--time:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -31px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDFDOS44MjQ0MSAxIDcuNjk3NjcgMS42NDUxNCA1Ljg4ODczIDIuODUzODNDNC4wNzk3OSA0LjA2MjUzIDIuNjY5ODkgNS43ODA0OSAxLjgzNzMzIDcuNzkwNDhDMS4wMDQ3NyA5LjgwMDQ3IDAuNzg2OTI5IDEyLjAxMjIgMS4yMTEzNyAxNC4xNDZDMS42MzU4IDE2LjI3OTggMi42ODM0NSAxOC4yMzk4IDQuMjIxODMgMTkuNzc4MkM1Ljc2MDIxIDIxLjMxNjYgNy43MjAyMiAyMi4zNjQyIDkuODU0MDEgMjIuNzg4NkMxMS45ODc4IDIzLjIxMzEgMTQuMTk5NSAyMi45OTUyIDE2LjIwOTUgMjIuMTYyN0MxOC4yMTk1IDIxLjMzMDEgMTkuOTM3NSAxOS45MjAyIDIxLjE0NjIgMTguMTExM0MyMi4zNTQ5IDE2LjMwMjMgMjMgMTQuMTc1NiAyMyAxMkMyMyA5LjA4MjYyIDIxLjg0MTEgNi4yODQ3MyAxOS43NzgyIDQuMjIxODNDMTcuNzE1MyAyLjE1ODkzIDE0LjkxNzQgMSAxMiAxWk0xNS43MDcgMTUuNzA3QzE1LjUxOTUgMTUuODk0NSAxNS4yNjUyIDE1Ljk5OTggMTUgMTUuOTk5OEMxNC43MzQ4IDE1Ljk5OTggMTQuNDgwNSAxNS44OTQ1IDE0LjI5MyAxNS43MDdMMTEuMjkzIDEyLjcwN0MxMS4xMDU1IDEyLjUxOTUgMTEuMDAwMSAxMi4yNjUyIDExIDEyVjZDMTEgNS43MzQ3OCAxMS4xMDU0IDUuNDgwNDMgMTEuMjkyOSA1LjI5Mjg5QzExLjQ4MDQgNS4xMDUzNiAxMS43MzQ4IDUgMTIgNUMxMi4yNjUyIDUgMTIuNTE5NiA1LjEwNTM2IDEyLjcwNzEgNS4yOTI4OUMxMi44OTQ2IDUuNDgwNDMgMTMgNS43MzQ3OCAxMyA2VjExLjU4NkwxNS43MDcgMTQuMjkzQzE1Ljg5NDUgMTQuNDgwNSAxNS45OTk4IDE0LjczNDggMTUuOTk5OCAxNUMxNS45OTk4IDE1LjI2NTIgMTUuODk0NSAxNS41MTk1IDE1LjcwNyAxNS43MDdaIiBmaWxsPSIjMjg1NDg0Ii8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipe__cook-time-list-portion:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -23px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 16px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuMDY2NTkgMC42MjYyMjFDNS45MTc4NiAwLjYyNjIyMSA1Ljc3NTIyIDAuNjg4NDU0IDUuNjcwMDUgMC43OTkyMzFDNS41NjQ4OCAwLjkxMDAwNyA1LjUwNTggMS4wNjAyNSA1LjUwNTggMS4yMTY5MVY1LjM5NDUzSDEuMTIxNTlWMS4yMTY5MUMxLjEyMTU5IDEuMDYwMjUgMS4wNjI1MSAwLjkxMDAwNyAwLjk1NzMzNiAwLjc5OTIzMUMwLjg1MjE2NyAwLjY4ODQ1NCAwLjcwOTUyNyAwLjYyNjIyMSAwLjU2MDc5NSAwLjYyNjIyMUMwLjQxMjA2NCAwLjYyNjIyMSAwLjI2OTQyNCAwLjY4ODQ1NCAwLjE2NDI1NCAwLjc5OTIzMUMwLjA1OTA4NTMgMC45MTAwMDcgMS45MjY0M2UtMDYgMS4wNjAyNSAxLjkyNjQzZS0wNiAxLjIxNjkxVjYuNTQ0M0MtMC4wMDA3MDc4NCA3LjIyODU3IDAuMTk0NzI1IDcuODk3MTIgMC41NjA3MjIgOC40NjI0NkMwLjgxMDgwMiA4Ljg1NTU3IDEuMTM0MDQgOS4xOTExMyAxLjUxMDg1IDkuNDQ4OEMxLjg4NzY2IDkuNzA2NDYgMi4zMTAyMSA5Ljg4MDg5IDIuNzUyOSA5Ljk2MTVWMTIuNjU2NUMyLjI3MzcyIDEyLjc1OTQgMS44Mjc2OSAxMi45OTAzIDEuNDU3NiAxMy4zMjdDMS4zOTYzOCAxMy4zODI0IDEuMzQ3MjUgMTMuNDUxMiAxLjMxMzU3IDEzLjUyODVDMS4yNzk4OSAxMy42MDU4IDEuMjYyNDUgMTMuNjg5OCAxLjI2MjQ0IDEzLjc3NDlWMjEuODM1OEMxLjI2MiAyMi4xMTk4IDEuMzE0NzIgMjIuNDAxMiAxLjQxNzYxIDIyLjY2MzdDMS41MjA1IDIyLjkyNjMgMS42NzE1MiAyMy4xNjQ5IDEuODYyMDQgMjMuMzY1OUMyLjA1MjU2IDIzLjU2NjkgMi4yNzg4NCAyMy43MjY0IDIuNTI3OTMgMjMuODM1MkMyLjc3NzAyIDIzLjk0NCAzLjA0NDAzIDI0IDMuMzEzNjkgMjRDMy41ODMzNSAyNCAzLjg1MDM3IDIzLjk0NCA0LjA5OTQ2IDIzLjgzNTJDNC4zNDg1NSAyMy43MjY0IDQuNTc0ODMgMjMuNTY2OSA0Ljc2NTM1IDIzLjM2NTlDNC45NTU4NyAyMy4xNjQ5IDUuMTA2ODkgMjIuOTI2MyA1LjIwOTc4IDIyLjY2MzdDNS4zMTI2NiAyMi40MDEyIDUuMzY1MzkgMjIuMTE5OCA1LjM2NDk0IDIxLjgzNThWMTMuNzc0OEM1LjM2NDk0IDEzLjY4OTggNS4zNDc1IDEzLjYwNTcgNS4zMTM4MiAxMy41Mjg0QzUuMjgwMTQgMTMuNDUxMSA1LjIzMTAxIDEzLjM4MjQgNS4xNjk3OSAxMy4zMjdDNC43OTk3IDEyLjk5MDIgNC4zNTM2NyAxMi43NTk0IDMuODc0NDkgMTIuNjU2NVY5Ljk2MTQ3QzQuMzE3MTggOS44ODA4NiA0LjczOTczIDkuNzA2NDQgNS4xMTY1NCA5LjQ0ODc3QzUuNDkzMzUgOS4xOTExIDUuODE2NTkgOC44NTU1NCA2LjA2NjY2IDguNDYyNDNDNi40MzI2NiA3Ljg5NzA5IDYuNjI4MSA3LjIyODU0IDYuNjI3MzggNi41NDQyN1YxLjIxNjkxQzYuNjI3MzggMS4xMzkzNCA2LjYxMjg4IDEuMDYyNTMgNi41ODQ3IDAuOTkwODY1QzYuNTU2NTEgMC45MTkxOTkgNi41MTUyMSAwLjg1NDA4MSA2LjQ2MzEzIDAuNzk5MjMxQzYuNDExMDYgMC43NDQzOCA2LjM0OTI0IDAuNzAwODY5IDYuMjgxMiAwLjY3MTE4NEM2LjIxMzE2IDAuNjQxNDk5IDYuMTQwMjMgMC42MjYyMjEgNi4wNjY1OSAwLjYyNjIyMVoiIGZpbGw9IiMyODU0ODQiLz4KPHBhdGggZD0iTTMuMzEzNzIgNS4wMjkxMkMzLjQ2MjQ1IDUuMDI5MTIgMy42MDUwOSA0Ljk2Njg5IDMuNzEwMjYgNC44NTYxMkMzLjgxNTQzIDQuNzQ1MzQgMy44NzQ1MiA0LjU5NTA5IDMuODc0NTIgNC40Mzg0M1YxLjIxNjkxQzMuODc0NTIgMS4wNjAyNSAzLjgxNTQzIDAuOTEwMDA3IDMuNzEwMjYgMC43OTkyMzFDMy42MDUwOSAwLjY4ODQ1NCAzLjQ2MjQ1IDAuNjI2MjIxIDMuMzEzNzIgMC42MjYyMjFDMy4xNjQ5OSAwLjYyNjIyMSAzLjAyMjM1IDAuNjg4NDU0IDIuOTE3MTggMC43OTkyMzFDMi44MTIwMSAwLjkxMDAwNyAyLjc1MjkzIDEuMDYwMjUgMi43NTI5MyAxLjIxNjkxVjQuNDM4NDZDMi43NTI5NCA0LjU5NTEyIDIuODEyMDIgNC43NDUzNiAyLjkxNzE5IDQuODU2MTNDMy4wMjIzNiA0Ljk2NjkgMy4xNjUgNS4wMjkxMiAzLjMxMzcyIDUuMDI5MTJaIiBmaWxsPSIjMjg1NDg0Ii8+CjxwYXRoIGQ9Ik0xNS45OTk1IDQuOTgxMDJDMTUuOTk5NSAyLjIzNDQ3IDE0LjIzMzMgMCAxMi4wNjIzIDBDOS44OTEyOCAwIDguMTI1IDIuMjM0NDcgOC4xMjUgNC45ODEwMkM4LjEyNSA3LjQ4NjYyIDkuNTk1MjQgOS41NjUxMiAxMS41MDE1IDkuOTEwNjRWMTIuNjU2NUMxMS4wMjIzIDEyLjc1OTQgMTAuNTc2MyAxMi45OTAzIDEwLjIwNjIgMTMuMzI3QzEwLjE0NSAxMy4zODI0IDEwLjA5NTggMTMuNDUxMSAxMC4wNjIxIDEzLjUyODRDMTAuMDI4NSAxMy42MDU3IDEwLjAxMSAxMy42ODk4IDEwLjAxMSAxMy43NzQ5VjIxLjgzNThDMTAuMDEwNiAyMi4xMTk4IDEwLjA2MzMgMjIuNDAxMiAxMC4xNjYyIDIyLjY2MzdDMTAuMjY5MSAyMi45MjYzIDEwLjQyMDEgMjMuMTY0OSAxMC42MTA2IDIzLjM2NTlDMTAuODAxMSAyMy41NjY5IDExLjAyNzQgMjMuNzI2NCAxMS4yNzY1IDIzLjgzNTJDMTEuNTI1NiAyMy45NDQgMTEuNzkyNiAyNCAxMi4wNjIzIDI0QzEyLjMzMTkgMjQgMTIuNTk4OSAyMy45NDQgMTIuODQ4IDIzLjgzNTJDMTMuMDk3MSAyMy43MjY0IDEzLjMyMzQgMjMuNTY2OSAxMy41MTM5IDIzLjM2NTlDMTMuNzA0NCAyMy4xNjQ5IDEzLjg1NTUgMjIuOTI2MyAxMy45NTgzIDIyLjY2MzdDMTQuMDYxMiAyMi40MDEyIDE0LjExNCAyMi4xMTk4IDE0LjExMzUgMjEuODM1OFYxMy43NzQ5QzE0LjExMzUgMTMuNjg5OCAxNC4wOTYxIDEzLjYwNTcgMTQuMDYyNCAxMy41Mjg0QzE0LjAyODcgMTMuNDUxMSAxMy45Nzk2IDEzLjM4MjQgMTMuOTE4MyAxMy4zMjdDMTMuNTQ4MyAxMi45OTAyIDEzLjEwMjMgMTIuNzU5NCAxMi42MjMxIDEyLjY1NjVWOS45MTA2NEMxNC41MjkzIDkuNTY1MTIgMTUuOTk5NSA3LjQ4NjYyIDE1Ljk5OTUgNC45ODEwMlpNMTIuMDA2MiA4Ljg2OTIzQzExLjg3OTggOC44NjkyMyAxMS43NTg1IDguODE2MzMgMTEuNjY5MSA4LjcyMjE3QzExLjU3OTcgOC42MjgwMSAxMS41Mjk1IDguNTAwMzEgMTEuNTI5NSA4LjM2NzE0QzExLjUyOTUgOC4yMzM5OCAxMS41Nzk3IDguMTA2MjcgMTEuNjY5MSA4LjAxMjExQzExLjc1ODUgNy45MTc5NSAxMS44Nzk4IDcuODY1MDYgMTIuMDA2MiA3Ljg2NTA2QzEzLjE0MTMgNy44NjUwNiAxNC4wNjQ4IDYuNTE4MjggMTQuMDY0OCA0Ljg2Mjg4QzE0LjA2NDggNC43Mjk3MiAxNC4xMTUgNC42MDIwMSAxNC4yMDQ0IDQuNTA3ODVDMTQuMjkzOCA0LjQxMzY5IDE0LjQxNSA0LjM2MDc5IDE0LjU0MTQgNC4zNjA3OUMxNC42Njc4IDQuMzYwNzkgMTQuNzg5MSA0LjQxMzY5IDE0Ljg3ODUgNC41MDc4NUMxNC45Njc5IDQuNjAyMDEgMTUuMDE4MSA0LjcyOTcyIDE1LjAxODEgNC44NjI4OEMxNS4wMTgxIDcuMDcxOTggMTMuNjY2OSA4Ljg2OTIzIDEyLjAwNjIgOC44NjkyM1oiIGZpbGw9IiMyODU0ODQiLz4KPC9zdmc+Cg==");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipe__content-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recipe__recipe-block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 716px;
+          flex: 0 1 716px;
+}
+
+.recipe__recipe-image-block {
+  margin-bottom: 21px;
+  width: 100%;
+  height: 410px;
+}
+
+.recipe__recipe-image {
+  width: 100%;
+  height: 100%;
+}
+
+.recipe__recipe-text {
+  color: var(--black);
+  font-family: "RobotoCondensed-300", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.recipe__product-block {
+  padding: 13px 56px 41px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  border-radius: 6px;
+  background: var(--greyBg);
+}
+
+.recipe__product-image-block {
+  margin: 0 auto 20px;
+  width: 230px;
+  height: auto;
+}
+
+.recipe__product-image {
+  width: 100%;
+  height: 100%;
+}
+
+.recipe__product-button-block {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.recipe__product-button {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.recipe__ingredients-list {
+  padding-left: 12px;
+}
+
+.recipe__ingredients-list-item {
+  position: relative;
+  color: var(--brown);
+  font-family: "RobotoCondensed-400", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.68;
+}
+.recipe__ingredients-list-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.recipe__other-recipes-block {
+  position: relative;
+}
+
+.recipe__other-recipes-title {
+  margin-bottom: 39px;
+  color: var(--brown);
+  font-family: "Montserrat-500", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.recipe__swiper {
+  overflow: hidden;
+}
+
+.recipe__swiper-button-prev {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 18px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxOCAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4IDEuOTRMMTYuMDU5NCAwTDAgMTZMMTYuMDU5NCAzMkwxOCAzMC4wN0wzLjg5MDYyIDE2TDE4IDEuOTRaIiBmaWxsPSIjOEI3MzRCIi8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.recipe__swiper-button-next {
+  position: absolute;
+  top: 160px;
+  right: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 18px;
+  height: 32px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxOCAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4IDEuOTRMMTYuMDU5NCAwTDAgMTZMMTYuMDU5NCAzMkwxOCAzMC4wN0wzLjg5MDYyIDE2TDE4IDEuOTRaIiBmaWxsPSIjOEI3MzRCIi8+Cjwvc3ZnPgo=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* ======= recipe END ======= */
 /* ======= footer START ======= */
 .footer {
   background-color: var(--blue);
