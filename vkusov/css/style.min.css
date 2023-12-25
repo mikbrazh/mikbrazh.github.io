@@ -2378,6 +2378,7 @@ body a {
             align-items: flex-start;
   }
   .love-we-do-production__text {
+    font-size: 36px;
     line-height: 1.25;
   }
 }
@@ -2410,7 +2411,7 @@ body a {
 .about__subtitle {
   margin-bottom: 20px;
   color: var(--white);
-  text-align: center;
+  text-align: left;
   font-family: "RobotoCondensed-500", Arial, sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -2436,7 +2437,7 @@ body a {
 
 .about__text {
   color: var(--white);
-  text-align: center;
+  text-align: left;
   font-family: "RobotoCondensed-300", Arial, sans-serif;
   font-size: 22px;
   line-height: 1.68;
@@ -2446,6 +2447,9 @@ body a {
 @media (max-width: 575.98px) {
   .about__layout {
     padding: 55px 0 32px;
+  }
+  .about__title {
+    font-size: 36px;
   }
   .about__subtitle {
     margin-bottom: 33px;
