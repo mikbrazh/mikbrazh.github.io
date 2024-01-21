@@ -707,7 +707,7 @@ footer a {
 }
  */
 @media (min-width: 992px) {
-  .stages-block .chess-item:nth-child(odd) .order-item {
+  .chess-item:nth-child(odd) .order-item {
     order: 2 !important;
   }
 }
@@ -988,7 +988,8 @@ h2.elem-color-white {
   }
 }
 
-.stages-block {
+/* ======= stages START ======= */
+.stages {
   margin-bottom: 120px;
 }
 
@@ -996,28 +997,22 @@ h2.elem-color-white {
   margin-bottom: 50px;
 }
 
-@media (max-width: 1399.98px) {
-  .stages-block {
-    margin-bottom: 100px;
-  }
-}
-
-.stages-block .row {
+.stages .row {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-.stages-block .title-block {
+.stages .title-block {
   padding: 0;
   width: 100%;
 }
 
-.stages-block .chess-item:nth-child(even) .content-block {
+.stages .chess-item:nth-child(even) .content-block {
   padding-left: 85px;
   padding-right: 0;
 }
 
-.stages-block .chess-item:nth-child(odd) .content-block {
+.stages .chess-item:nth-child(odd) .content-block {
   padding-left: 0;
   padding-right: 85px;
 }
@@ -1039,34 +1034,8 @@ h2.elem-color-white {
   text-transform: uppercase;
 }
 
-@media (max-width: 1399.98px) {
-  .stages-block .chess-item:nth-child(even) .content-block {
-    padding-left: 65px;
-  }
-  
-  .stages-block .chess-item:nth-child(odd) .content-block {
-    padding-right: 65px;
-  }
-}
-
 .production-title-block {
   padding-left: 62px;
-}
-
-@media (max-width: 991.98px) {
-  .production-title-block {
-    padding: 0;
-  }
-
-  .production-title, .production-subtitle {
-    padding-left: 41px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .production-title, .production-subtitle {
-    padding-left: 15px;
-  }
 }
 
 .control-title-icon {
@@ -1074,19 +1043,30 @@ h2.elem-color-white {
   color: #f9ba15;
 }
 
-@media (max-width: 991.98px) {
-  .content-block {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 100%;
-  }
-}
-
 .stage-title {
   padding-left: 0;
   padding-right: 0;
+}
+
+/* ======= stages MEDIA START ======= */
+@media (max-width: 1399.98px) {
+  .stages {
+    margin-bottom: 100px;
+  }
+
+  .stages .chess-item:nth-child(even) .content-block {
+    padding-left: 65px;
+  }
+  
+  .stages .chess-item:nth-child(odd) .content-block {
+    padding-right: 65px;
+  }
+}
+
+@media (min-width: 992px) {
+  .stages .chess-item:nth-child(odd) .order-item {
+    order: 2 !important;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -1096,6 +1076,28 @@ h2.elem-color-white {
 
   .stage-title, .control-title {
     font-size: 28px !important;
+  }
+
+  .production-title-block {
+    padding: 0;
+  }
+
+  .production-title, .production-subtitle {
+    padding-left: 41px;
+  }
+
+  .content-block {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .production-title, .production-subtitle {
+    padding-left: 15px;
   }
 }
 
@@ -1108,7 +1110,8 @@ h2.elem-color-white {
     font-size: 24px !important;
   }
 }
-
+/* ======= stages MEDIA END ======= */
+/* ======= stages END ======= */
 
 
 
