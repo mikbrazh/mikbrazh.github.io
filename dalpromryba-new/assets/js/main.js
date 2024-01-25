@@ -73,7 +73,13 @@ $(document).ready(() => {
 
             $__sliderVideo.addEventListener('pause', (event) => {
                 $__sliderVideo.controls = false;
-                stagesSpratsSwiper.enable();
+               
+                if ($__stagesSwiper.classList.contains('stages-sprats-swiper')) {
+                    stagesSpratsSwiper.enable();
+                }
+                else if ($__stagesSwiper.classList.contains('stages-tuna-swiper')) {
+                    stagesTunaSwiper.enable();
+                }
 
                 $__sliderPoster.classList.toggle('elem--hidden');;
                 $__sliderTitle.classList.toggle('elem--hidden');;
