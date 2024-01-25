@@ -1364,18 +1364,18 @@ h2.elem-color-white {
     width: 62px;
     height: 62px;
   }
-  .stages-slider__video-poster {
+  /* .stages-slider__video-poster {
     display: none;
-  }
+  } */
   .stages-slider__button-prev {
     width: 40px;
     height: 40px;
-    display: none;
+    /* display: none; */
   }
   .stages-slider__button-next {
     width: 40px;
     height: 40px;
-    display: none;
+    /* display: none; */
   }
   .stages-slider__button-prev:before {
     width: 10px;
