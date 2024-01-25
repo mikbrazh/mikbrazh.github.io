@@ -41,17 +41,7 @@ $(document).ready(() => {
         });
         /* ======= swiper END ======= */
 
-<<<<<<< HEAD
         /* ======= Custom video play button START ======= */
-=======
-        // Написать для всех видео
-        // Убираем полоску при проигрывании, при паузе возращаем обратно
-        // Убираем кнопку плей при проигрывании, при паузе возращаем обратно 
-        // Убираем постер при проигрывании, при паузе возращаем обратно
-        // Делаем пагинацию
-        // ПОстер на все ширину свайпера
-
->>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
         const $__stagesSlides = document.querySelectorAll('.stages-slider__slide');
 
         $__stagesSlides.forEach((slide) => {
@@ -64,7 +54,6 @@ $(document).ready(() => {
             const $__sliderPlayButton = slide.querySelector('.stages-slider__play-button');
             const $__pagination = $__stagesSwiper.querySelector('.swiper-pagination');
 
-<<<<<<< HEAD
             $__sliderVideo.addEventListener('play', (event) => {
                 $__sliderVideo.controls = true;
 
@@ -108,39 +97,3 @@ $(document).ready(() => {
     }
     /* ======= stages-slider END ======= */
 });
-=======
-            slide.addEventListener('click', (event) => {
-                if (event.target == $__sliderPlayButton && $__sliderVideo.paused == true) {
-                    $__sliderVideo.play();
-
-                    $__sliderVideo.controls = true;
-
-                    $__sliderPoster.style.display = 'none';
-                    $__sliderTitle.style.display = 'none';
-                    $__sliderButtonPrev.style.display = 'none';
-                    $__sliderButtonNext.style.display = 'none';
-                    $__sliderPlayButton.style.display = 'none';
-                    $__pagination.style.display = 'none';
-
-
-                    $__sliderVideo.addEventListener('ended', (event) => {
-                        $__sliderPoster.style.display = 'block';
-                        $__sliderTitle.style.display = 'flex';
-                        $__sliderButtonPrev.style.display = 'block';
-                        $__sliderButtonNext.style.display = 'block';
-                        $__sliderPlayButton.style.display = 'block';
-                        $__pagination.style.display = 'block';
-                    }, false);
-                } else {
-                    $__sliderVideo.pause();
-                    $__sliderVideo.controls = false;
-                    $__sliderButtonPrev.style.display = 'block';
-                    $__sliderButtonNext.style.display = 'block';
-                    $__sliderPlayButton.style.display = 'block';
-                }
-            }, false);
-        });
-    }
-});
-/* ======= stages-slider END ======= */
->>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
