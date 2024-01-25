@@ -545,11 +545,11 @@ footer a {
 .politics a {
   display: inline;
   line-height: 1!important;
-  border-bottom: dashed rgba(255, 255, 255, 0.5) 1px;
+  /* border-bottom: dashed rgba(255, 255, 255, 0.5) 1px; */
 }
 .politics a:hover {
   color: rgba(255, 255, 255, 0.5);
-  border-bottom: dashed rgba(255, 255, 255, 0.5) 1px;
+  /* border-bottom: dashed rgba(255, 255, 255, 0.5) 1px; */
 }
 .connect {
   font-size: 14px;
