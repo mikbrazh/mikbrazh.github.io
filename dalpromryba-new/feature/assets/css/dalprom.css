@@ -1176,7 +1176,11 @@ h2.elem-color-white {
   bottom: 0;
   left: 0;
   right: 0;
+<<<<<<< HEAD
   height: 80px;
+=======
+  height: 90px;
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
   z-index: 2;
   background-color: #FFFFFF;
   color: #FFFFFF;
@@ -1185,6 +1189,7 @@ h2.elem-color-white {
   font-size: 22px;
   line-height: 1;
   text-transform: uppercase;
+<<<<<<< HEAD
   opacity: 1;
   visibility: visible;
   transition: 0.3s ease-in;
@@ -1192,13 +1197,23 @@ h2.elem-color-white {
 }
 
 /* @keyframes slideDown {
+=======
+  /* animation: slideDown 1s ease-in-out infinite; */
+}
+
+@keyframes slideDown {
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
   from {
     bottom: 0;
   }
   to {
     bottom: -90px;
   }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
 
 .stages-slider__button-prev {
   position: absolute;
@@ -1213,9 +1228,12 @@ h2.elem-color-white {
   cursor: pointer;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
+<<<<<<< HEAD
   opacity: 1;
   visibility: visible;
   transition: 0.3s ease-in;
+=======
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
 }
 
 .stages-slider__button-prev:hover {
@@ -1251,9 +1269,12 @@ h2.elem-color-white {
   cursor: pointer;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
+<<<<<<< HEAD
   opacity: 1;
   visibility: visible;
   transition: 0.3s ease-in;
+=======
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
 }
 
 .stages-slider__button-next:hover {
@@ -1280,9 +1301,12 @@ h2.elem-color-white {
   width: 100%;
   position: absolute;
   bottom: 4px;
+<<<<<<< HEAD
   opacity: 1;
   visibility: visible;
   transition: 0.3s ease-in;
+=======
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
 }
 
 .swiper-pagination-bullet {
@@ -1307,9 +1331,12 @@ h2.elem-color-white {
   border: none;
   border-radius: 50%;
   z-index: 1;
+<<<<<<< HEAD
   opacity: 1;
   visibility: visible;
   transition: 0.3s ease-in;
+=======
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
 }
 
 .stages-slider__play-button:before {
@@ -1338,6 +1365,7 @@ h2.elem-color-white {
   z-index: 0;
 }
 
+<<<<<<< HEAD
 .elem--hidden {
   opacity: 0 !important;
   visibility: hidden !important;
@@ -1385,6 +1413,13 @@ h2.elem-color-white {
   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     width: 7px;
     height: 7px;
+=======
+/* ======= stages-slider MEDIA START ======= */
+@media (max-width: 992.98px) {
+  .stages-slider__title {
+    height: 60px;
+    font-size: 14px;
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
   }
 }
 
@@ -1403,10 +1438,13 @@ h2.elem-color-white {
   }
   .stages-slider__title {
     height: 40px;
+<<<<<<< HEAD
     font-size: 12px;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: -4px;
+=======
+>>>>>>> 09a9b4205d8c0b5d3a3838fe076e9a3fade680f1
   }
 }
 /* ======= stages-slider MEDIA END ======= */
