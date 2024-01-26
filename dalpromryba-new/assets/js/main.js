@@ -3,7 +3,11 @@ function scrollProduct() {
     $('body,html').animate({ scrollTop: offsetTop }, 1000);
 }
 
-$(document).ready(() => {
+// $(document).ready(() => {
+// });
+
+(function() {
+    
     /* ======= stages-slider START ======= */
     if (document.querySelector('.stages-slider')) {
 
@@ -56,6 +60,12 @@ $(document).ready(() => {
 
             $__sliderVideo.addEventListener('play', (event) => {
                 $__sliderVideo.controls = true;
+                if ($__stagesSwiper.classList.contains('stages-sprats-swiper')) {
+                    stagesSpratsSwiper.disable();
+                }
+                else if ($__stagesSwiper.classList.contains('stages-tuna-swiper')) {
+                    stagesTunaSwiper.disable();
+                }
 
                 $__sliderPoster.classList.toggle('elem--hidden');;
                 $__sliderTitle.classList.toggle('elem--hidden');;
@@ -67,6 +77,13 @@ $(document).ready(() => {
 
             $__sliderVideo.addEventListener('pause', (event) => {
                 $__sliderVideo.controls = false;
+                
+                if ($__stagesSwiper.classList.contains('stages-sprats-swiper')) {
+                    stagesSpratsSwiper.enable();
+                }
+                else if ($__stagesSwiper.classList.contains('stages-tuna-swiper')) {
+                    stagesTunaSwiper.enable();
+                }
 
                 $__sliderPoster.classList.toggle('elem--hidden');;
                 $__sliderTitle.classList.toggle('elem--hidden');;
@@ -77,14 +94,8 @@ $(document).ready(() => {
             });
 
             $__sliderVideo.addEventListener('ended', (event) => {
+                $__sliderVideo.pause();
                 $__sliderVideo.controls = false;
-
-                $__sliderPoster.classList.toggle('elem--hidden');;
-                $__sliderTitle.classList.toggle('elem--hidden');;
-                $__sliderButtonPrev.classList.toggle('elem--hidden');;
-                $__sliderButtonNext.classList.toggle('elem--hidden');;
-                $__sliderPlayButton.classList.toggle('elem--hidden');;
-                $__pagination.classList.toggle('elem--hidden');;
             });
 
             slide.addEventListener('click', (event) => {
@@ -96,4 +107,5 @@ $(document).ready(() => {
         /* ======= Custom video play button END ======= */
     }
     /* ======= stages-slider END ======= */
-});
+
+})();
