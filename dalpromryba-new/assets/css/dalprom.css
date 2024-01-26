@@ -1208,11 +1208,7 @@ h2.elem-color-white {
   text-transform: uppercase;
   opacity: 1;
   visibility: visible;
-<<<<<<< HEAD
   transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
-=======
-  transition: 0.3s ease-in;
->>>>>>> a82b1faad32f0dd86344c84b2c253946bf4b7e17
 }
 
 .stages-slider__button-prev {

@@ -77,11 +77,7 @@ function scrollProduct() {
 
             $__sliderVideo.addEventListener('pause', (event) => {
                 $__sliderVideo.controls = false;
-<<<<<<< HEAD
                 
-=======
-               
->>>>>>> a82b1faad32f0dd86344c84b2c253946bf4b7e17
                 if ($__stagesSwiper.classList.contains('stages-sprats-swiper')) {
                     stagesSpratsSwiper.enable();
                 }
