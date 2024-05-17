@@ -1,0 +1,15 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"color_scheme": "Packages/Darkula Color Scheme/darkula.tmTheme",
+	"draw_white_space": "all",
+	"font_size": 13,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	"update_check": false,
+	"word_wrap": true,
+	"theme": "Default Dark.sublime-theme",
+	"index_files": true,
+}
