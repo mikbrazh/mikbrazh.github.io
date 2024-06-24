@@ -1,0 +1,91 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.colorTheme": "One Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.defaultLanguage": "html",
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 15.5,
+  "terminal.integrated.fontSize": 15.5,
+  "editor.renderWhitespace": "none", // "boundary"
+  "editor.wordWrap": "on",
+  "cSpell.language": "en,ru",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Vim START
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+      {
+        "before": [
+          "d",
+          "f"
+        ],
+        "after": [
+          "<Esc>"
+        ]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": [
+          "<leader>",
+          "d"
+        ],
+        "after": [
+          "d",
+          "d"
+        ]
+      },
+      {
+        "before": [
+          "<C-n>"
+        ],
+        "commands": [
+          ":nohl"
+        ]
+      },
+      {
+        "before": [
+          "j"
+        ],
+        "after": [
+          "g",
+          "j"
+        ]
+      },
+      {
+        "before": [
+          "k"
+        ],
+        "after": [
+          "g",
+          "k"
+        ]
+      },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-c>": false,
+      "<C-x>": false,
+      "<C-]>": false,
+      "<C-[>": false,
+      "<C-f>": false,
+      "<C-n>": false
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "editor.stickyScroll.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.enableStickyScroll": false,
+  // "files.autoSaveDelay": 500,
+  // "files.autoSave": "afterDelay",
+  // Vim END
+
+}

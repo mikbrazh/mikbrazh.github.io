@@ -1,0 +1,256 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+.",
+		"command": "workbench.action.openSettingsJson"
+	},
+	{
+		"key": "ctrl+k m",
+		"command": "workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "ctrl+k m",
+		"command": "-workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "alt+down",
+		"command": "editor.action.insertCursorBelow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+down",
+		"command": "-editor.action.insertCursorBelow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+up",
+		"command": "editor.action.insertCursorAbove",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+up",
+		"command": "-editor.action.insertCursorAbove",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+g",
+		"command": "editor.emmet.action.wrapWithAbbreviation"
+	},
+	{
+		"key": "ctrl+shift+up",
+		"command": "editor.action.moveLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+up",
+		"command": "-editor.action.moveLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+down",
+		"command": "editor.action.moveLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+down",
+		"command": "-editor.action.moveLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+k ctrl+b",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "-editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "-editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+insert",
+    "command": "-editor.action.clipboardPasteAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+delete",
+    "command": "-editor.action.clipboardCutAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "task.new",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-task.new",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "task.complete",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "-task.complete",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  { 
+    "key": "ctrl+alt+x", 
+    "command": "extension.ecsstractor_port_run", 
+    "when": "editorTextFocus" 
+  },
+  {
+    "key": "ctrl+shift+z",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2;"
+    }
+  },
+  {
+    "key": "alt+h",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<!-- ${TM_SELECTED_TEXT}$1 -->"
+    }
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<!-- ======= $1 START ======= -->$2\n<!-- ======= $1 END ======= -->"
+    }
+  },
+  {
+    "key": "alt+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "/* ${TM_SELECTED_TEXT}$1 */"
+    }
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "/* ======= $1 START ======= */$2\n/* ======= $1 END ======= */"
+    }
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "// $1"
+    }
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "/* ======= $1 START ======= */$2\n/* ======= $1 END ======= */"
+    }
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "section.$1>.container>.$1__layout>h2.$1__title+p.$1__subtitle$2"
+    }
+  },
+  {
+    "key": "ctrl+alt+oem_period",
+    "command": "bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+oem_comma",
+    "command": "bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "-bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "-bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+oem_2",
+    "command": "bookmarks.clear"
+  },
+  {
+    "key": "alt+s",
+    "command": "task.cancel",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+c",
+    "command": "-task.cancel",
+    "when": "editorTextFocus"
+  },
+]

@@ -1,0 +1,30 @@
+[
+    { "keys": ["d", "f"], "command": "exit_insert_mode",
+        "context":
+        [
+            {"key": "setting.command_mode", "operand": false },
+            {"key": "setting.is_widget", "operand": false}
+        ]
+    },
+
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
+
+    { "keys": ["ctrl+shift+z"],
+      "command": "insert_snippet",
+      "args": {
+        "contents": "console.log(${1:}$SELECTION);${0}"
+      }
+    },
+
+    { "keys": ["ctrl+shift+g"], "command": "emmet_wrap_with_abbreviation" },
+
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["ctrl+shift+r"],
+       "command": "reindent",
+       "args": {
+            "single_line": false
+        }
+    },
+]
