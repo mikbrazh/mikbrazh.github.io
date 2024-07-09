@@ -1,0 +1,355 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Set pseudo css": {
+		"prefix": "snip pseudo css",
+		"body": [
+		  "content: \"\";",
+		  "position: absolute;",
+		  "top: 50%;",
+		  "left: 50%;",
+		  "transform: translate(-50%, -50%) rotate(180deg);",
+		  "width: 10px;",
+		  "height: 10px;",
+		  "// background-color: green;",
+		  "background-image: url(\"$1\");",
+		  "background-size: cover;",
+		  "background-position: center;",
+		  "background-repeat: no-repeat;",
+		  "$2"
+		],
+		"description": "Set pseudo css"
+	  },
+	  "Set font css": {
+		"prefix": "snip font css",
+		"body": [
+		  "font-family: $1;",
+		  "font-size: 16px;",
+		  "font-weight: 400;",
+		  "font-style: normal;",
+		  "line-height: 1.75;",
+		  "text-align: center;",
+		  "color: #FFFFFF;",
+		  "$2"
+		],
+		"description": "Set font css"
+	  },
+	  "Set bg css": {
+		"prefix": "snip bg css",
+		"body": [
+		  "background-color: green;",
+		  "// background-image: url(\"../img/@2x/$1\");",
+		  "background-size: cover;",
+		  "background-position: center;",
+		  "background-repeat: no-repeat;",
+		  "$2"
+		],
+		"description": "Set bg css"
+	  },
+	  "Set bg img": {
+		"prefix": "snip img bg css",
+		"body": [
+		  "position: absolute;",
+		  "top: 0;",
+		  "left: 0;",
+		  "width: 100%;",
+		  "height: 100%;",
+		  "object-fit: cover;",
+		  "object-position: center$1;",
+		  "pointer-events: none;",
+		  "z-index: -1;",
+		  "overflow-x: visible;",
+		  "$2"
+		],
+		"description": "Set bg css"
+	  },
+	  "Set video html": {
+		"prefix": "snip video html",
+		"body": [
+		  "<video class=\"$1\" autoplay loop muted playsinline preload=\"auto\" poster=\"img/@2x/$2.jpg\">"
+		  " <source src=\"video/$3.mp4\" type=\"video/mp4\">"
+		  " <source src=\"video/$3.ogv\" type=\"video/ogv\">"
+		  " <source src=\"video/$3.webm\" type=\"video/webm\">"
+		  "</video>"
+		  "$4"
+		],
+		"description": "Set video html"
+	  },
+	  "Set video css": {
+		"prefix": "snip video css",
+		"body": [
+		  "position: absolute;",
+		  "top: 0;",
+		  "left: 0;",
+		  "object-fit: cover;",
+		  "min-width: 100%;",
+		  "min-height: 100%;",
+		  "width: 100%;",
+		  "height: 100%;",
+		  "z-index: -1;",
+		  "$1"
+		],
+		"description": "Set video css"
+	  },
+	  "Set picture html": {
+		"prefix": "snip picture html",
+		"body": [
+		  "<picture>"
+		  " <source srcset=\"img/@2x/$1\" media=\"(max-width: 480px)\">"
+		  " <source srcset=\"img/@2x/$1\" media=\"(max-width: 640px)\">"
+		  " <source srcset=\"img/@2x/$1\" media=\"(max-width: 960px)\">"
+		  " <source srcset=\"photo.avif\" type=\"image/avif\">"
+		  " <source srcset=\"photo.webp\" type=\"image/webp\">"
+		  " <img class=\"$2 img-responsive img-responsive--width-100\" src=\"img/@2x/$3\" alt=\"$4\" width=\"$5\" height=\"$6\">"
+		  "</picture>"
+		  "$7"
+		],
+		"description": "Set picture html"
+	  },
+	  "Set form html": {
+		"prefix": "snip form html",
+		"body": [
+		  "<form class=\"$1-form\" action=\"#\" method=\"post\">"
+		  "  <div class=\"$2-form__top-block\">"
+		  "    <div class=\"$3-form__input-block\">"
+		  "      <input class=\"$4 input-default\" type=\"text\" placeholder=\"Вписать текст\">"
+		  "      <input class=\"$5 input-default\" type=\"tel\" placeholder=\"+7 (___) ___ ____\">"
+		  "    </div>"
+		  "    <button class=\"$10-form__button button-default\">Записаться на консультацию</button>"
+		  "  </div>"
+		  "  <label class=\"$11-form__checkbox-label checkbox-label-default\">"
+		  "    <input class=\"$12 checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"$13\" checked>"
+		  "    <span class=\"$14 checkbox-custom\"></span>"
+		  "    Согласие на обработку персональных данных и данных об абонентах"
+		  "  </label>"
+		  "</form>"
+		  "$15"
+		],
+		"description": "Set form html"
+	  },
+	  "Set media max": {
+		"prefix": "snip media max",
+		"body": [
+		  "@media (max-width: $1px) {",
+		  "$2",
+		  "}",
+		  "$3"
+		],
+		"description": "Set media max"
+	  },
+	  "Set media min": {
+		"prefix": "snip media min",
+		"body": [
+		  "@media (min-width: $1px) {",
+		  "$2",
+		  "}",
+		  "$3"
+		],
+		"description": "Set media min"
+	  },
+	  "Set BS col padding": {
+		"prefix": "snip bs pad",
+		"body": [
+			".$1 .container {"
+			"	padding-right: calc(var(--bs-gutter-x) * 0.5);"
+			"	padding-left: calc(var(--bs-gutter-x) * 0.5);"
+			"	margin-top: var(--bs-gutter-y);"
+			"}"
+			"$2"
+		],
+		"description": "Set BS col padding"
+	  },
+	  "Set media xxl down": {
+		"prefix": "snip xxl down",
+		"body": [
+			"@include media-breakpoint-down(xxl) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media xxl down"
+	  },
+	  "Set media xl down": {
+		"prefix": "snip xl down",
+		"body": [
+			"@include media-breakpoint-down(xl) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media xl down"
+	  },
+	  "Set media lg down": {
+		"prefix": "snip lg down",
+		"body": [
+			"@include media-breakpoint-down(lg) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media lg down"
+	  },
+	  "Set media md down": {
+		"prefix": "snip md down",
+		"body": [
+			"@include media-breakpoint-down(md) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media md down"
+	  },
+	  "Set media sm down": {
+		"prefix": "snip sm down",
+		"body": [
+			"@include media-breakpoint-down(sm) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media sm down"
+	  },
+	  "Set media xs down": {
+		"prefix": "snip xs down",
+		"body": [
+			"@include media-breakpoint-down(xs) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media xs down"
+	  },
+	  "Set media all down": {
+		"prefix": "snip all down",
+		"body": [
+			"@include media-breakpoint-down(xxl) {"
+			"	$1"
+			"}"
+			""
+			"@include media-breakpoint-down(xl) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-down(lg) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-down(md) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-down(sm) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-down(xs) {"
+			"	"
+			"}"
+		],
+		"description": "Set media all down"
+	  },
+	  "Set media xxl up": {
+		"prefix": "snip xxl up",
+		"body": [
+			"@include media-breakpoint-up(xxl) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media xxl up"
+	  },
+	  "Set media xl up": {
+		"prefix": "snip xl up",
+		"body": [
+			"@include media-breakpoint-up(xl) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media xl up"
+	  },
+	  "Set media lg up": {
+		"prefix": "snip lg up",
+		"body": [
+			"@include media-breakpoint-up(lg) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media lg up"
+	  },
+	  "Set media md up": {
+		"prefix": "snip md up",
+		"body": [
+			"@include media-breakpoint-up(md) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media md up"
+	  },
+	  "Set media sm up": {
+		"prefix": "snip sm up",
+		"body": [
+			"@include media-breakpoint-up(sm) {"
+			"	$1"
+			"}"
+		],
+		"description": "Set media sm up"
+	  },
+	  "Set media all up": {
+		"prefix": "snip all up",
+		"body": [
+			"@include media-breakpoint-up(sm) {"
+			"	$1"
+			"}"
+			""
+			"@include media-breakpoint-up(md) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-up(lg) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-up(xl) {"
+			"	"
+			"}"
+			""
+			"@include media-breakpoint-up(xxl) {"
+			"	"
+			"}"
+		],
+		"description": "Set media all up"
+	  },
+	  "Set img path": {
+		"prefix": "snip img path",
+		"body": [
+			"img/@2x/$1@2x.$2"
+		],
+		"description": "Set img path"
+	  },
+	  "Set img html": {
+		"prefix": "snip img html",
+		"body": [
+			"<img src=\"$1\" srcset=\"$2 2x\" alt=\"$3\">"
+		],
+		"description": "Set img html"
+	  },
+	  "Set flex prop": {
+		"prefix": "snip flex",
+		"body": [
+			"flex-grow: 0;"
+			"flex-shrink: 1;"
+			"flex-basis: auto;"
+			"// flex: 0 1 auto;"
+			"$1"
+		],
+		"description": "Set flex prop"
+	  },
+}
